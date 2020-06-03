@@ -52,5 +52,16 @@
     // Collapse now if page is not at top
     navbarCollapse();
     // Collapse the navbar when page is scrolled
-    // $(window).scroll(navbarCollapse);
+    $(window).scroll(navbarCollapse);
+
+    $('#testimonialsCarousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    })
 })(jQuery); // End of use strict

@@ -4,38 +4,38 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="author" content="NxtLvl" />
         <title>Elle Style Coach</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favico.png" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <script src="js/all.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0" id="mainNav">
-        <div class="col-12 w-100 d-flex justify-content-between position-absolute fixed-top navtop">
-            <span>hola@ellestylecoach.com</span>
-            <span class="d-flex justify-content-around align-items-center">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-whatsapp"></i>
-            </span>
-        </div>
+            <!-- <div class="col-12 w-100 d-flex justify-content-between position-absolute fixed-top navtop">
+                <span>hola@ellestylecoach.com</span>
+                <span class="d-flex justify-content-around align-items-center">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-whatsapp"></i>
+                </span>
+            </div> -->
             <div class="container">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase w-100 d-flex justify-content-between align-items-center">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Sobre Mi</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Asesorias</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sobremi">Sobre Mi</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#asesorias">Asesorias</a></li>
                         <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Productos</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#productos">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#testimonios">Testimonios</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -56,40 +56,88 @@
                     <div class="col-sm-4">
                         <img src="assets/img/imageEbook.png" alt="imageEbook" class="img-fluid">
                     </div>
-                    <div class="col-sm-4">
-                        Descarga mi ebook "Guapa todos los dias" GRATIS
+                    <div class="col-sm-4 ebookText">
+                        <p>Descarga mi ebook</p> <p>"Guapa todos los dias"</p> <p>GRATIS</p>
                     </div>
-                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4" id="ebookDiv">
+                        <form action="" id="ebookForm" novalidate="novalidate" class="my-5 w-90">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingrese su nombre." >
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="text" placeholder="Correo Electronico *" required="required" data-validation-required-message="Ingrese su correo.">
+                            </div>
+                            <div class="text-center">
+                                <div id="success"></div>
+                                <button class="btn btn-primary btn-block text-uppercase" id="sendMessageButton" type="submit">ENVIAR</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- About Me -->
-        <section class="page-section p-0">
+        <!-- Sobre Mi -->
+        <section class="page-section p-0 my-5" id="sobremi">
             <div class="container-fluid mx-0 px-0">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Sobre Mi</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-6"><img src="assets/img/aboutMe.png" alt="imageAboutMe" class="img-fluid"></img></div>
-                    <div class="col-lg-6">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <div class="col-lg-6 aboutMe">
+                        <p>
+                            Soy <strong>Elle</strong>, coach de estilo y me dedico a ayudar a las mujeres a desarrollar su estilo personal para lograr independencia personal y profesional por medio de la auto confianza y el bienestar.
+                        </p>
+                        <p>
+                            Desde que tengo uso de razón me he sentido conectada con la belleza sin estridencias y en esa búsqueda me prepare en sus diferentes áreas, incluyendo el mejoramiento físico y la belleza interna, por lo que he decidido usar mi preparación para ayudar a otras mujeres a encaminarse en la búsqueda de su independencia a través de la motivación, la auto confianza y el bienestar, guiándolas en la estructura de una imagen personal que la respalde en la consecusión de sus metas.
+                        </p>
+                        <p>
+                            <strong>
+                                “DESCUBRE QUIEN ERES PARA CREAR EL ÉXITO A TU MEDIDA"
+                                <p>
+                                    ---- SI NO ESTAS OBSESIONADA CON TU VIDA ENTONCES CAMBIALA ----
+                                </p>
+                            </strong>
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Services-->
-        <section class="page-section" id="services">
+        <!-- Asesorias-->
+        <section class="page-section p-0 my-5" id="asesorias">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Asesorias</h2>
                 </div>
                 <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Ellestylemechellange</h4>
+                        <p class="text-muted"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, impedit enim. Cumque earum enim sint, odio, nemo vel, quod alias numquam inventore ipsa reprehenderit, velit impedit ipsam? Iure, voluptate asperiores.</span></p>
+                        <button class="btn btn-primary btn-block">Ver Más</button>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-laptop fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Diseña tu imagen a tu medida</h4>
+                        <p class="text-muted"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nostrum qui atque corporis expedita tenetur saepe dolorum debitis, ab, numquam non suscipit voluptates laborum libero, corrupti fugit laudantium quaerat provident.</span></p>
+                        <button class="btn btn-primary btn-block">Ver Más</button>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-lock fa-stack-1x fa-inverse"></i></span>
+                        <h4 class="my-3">Tipologia Corporal</h4>
+                        <p class="text-muted"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa esse sequi, veritatis vitae reprehenderit ea incidunt pariatur id! Pariatur fugiat dicta quia, rem, similique necessitatibus libero. Consectetur sequi, accusantium placeat.</span></p>
+                        <button class="btn btn-primary btn-block">Ver Más</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Productos-->
+        <section class="page-section p-0 my-5" id="productos">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Productos</h2>
+                </div>
+                <!-- <div class="row text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
                         <h4 class="my-3">E-Commerce</h4>
@@ -105,224 +153,63 @@
                         <h4 class="my-3">Web Security</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
-        <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+        <!-- Testimonios-->
+        <section class="page-section p-0 my-5" id="testimonios">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Testimonios</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1"
-                                ><div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt=""
-                            /></a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
-                            </div>
+                    <div class="col-lg-12" id="testimonialsCarousel">
+                        <div>
+                            <img src="assets/img/team/1.jpg" class="img-fluid testimonialsImg">
+                            <h2>
+                                Nombre Apellido
+                            </h2>
+                            <p class="text-center">
+                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat."
+                            </p>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2"
-                                ><div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt=""
-                            /></a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
-                            </div>
+                        <div>
+                            <img src="assets/img/team/1.jpg" class="img-fluid testimonialsImg">
+                            <h2>
+                                Nombre Apellido
+                            </h2>
+                            <p class="text-center">
+                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat."
+                            </p>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3"
-                                ><div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt=""
-                            /></a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4"
-                                ><div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt=""
-                            /></a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5"
-                                ><div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt=""
-                            /></a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6"
-                                ><div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt=""
-                            /></a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
-                            </div>
+                        <div>
+                            <img src="assets/img/team/1.jpg" class="img-fluid testimonialsImg">
+                            <h2>
+                                Nombre Apellido
+                            </h2>
+                            <p class="text-center">
+                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat."
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- About-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>Be Part<br />Of Our<br />Story!</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Team-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
-                            <h4>Kay Garland</h4>
-                            <p class="text-muted">Lead Designer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
-            </div>
-        </section>
-        <!-- Clients-->
-        <div class="py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
+        <!-- Contacto-->
+        <section class="page-section py-3 my-5" id="contacto">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contacto</h2>
-                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
- -->                </div>
+                </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
@@ -357,7 +244,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright © Nxt Lvl 2020</div>
+                    <div class="col-lg-4 text-lg-left">Development by © Nxt Lvl 2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
@@ -366,14 +253,15 @@
             </div>
         </footer>
         <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
         <!-- Contact form JS-->
         <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
+        <script type="text/javascript" src="js/slick.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
