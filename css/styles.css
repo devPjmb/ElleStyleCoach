@@ -628,6 +628,16 @@ div#ebookDiv form#ebookForm .form-group input.form-control {
   flex-direction: column;
 }
 
+.asesorias {
+  width: 40%;
+  background: #e3d0c6;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.asesorias>img {
+  border-radius: 50%;
+}
 /**
  * End Nuevos estilos
  */
