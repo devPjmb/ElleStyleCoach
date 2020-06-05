@@ -607,9 +607,12 @@ div#ebookDiv form#ebookForm .form-group input.form-control {
 }
 
 .testimonialsImg {
-  width: 20% !important;
+  width: 250px !important;
+  height: 250px !important;
   border-radius: 50%;
   box-shadow: 5px 5px 10px #cfcfcf;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .slick-slide div {

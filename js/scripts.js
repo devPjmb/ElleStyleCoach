@@ -57,11 +57,11 @@
     $('#testimonialsCarousel').slick({
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1500,
         fade: true,
         cssEase: 'linear',
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 2500,
     })
 })(jQuery); // End of use strict
