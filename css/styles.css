@@ -136,6 +136,7 @@ blockquote {
 b,
 strong {
   font-weight: bolder;
+  color: #e7455f;
 }
 
 small {
@@ -442,6 +443,26 @@ mark,
   src: url(../font/Marcellus/Marcellus-Regular.ttf);
 }
 
+@font-face {
+  font-family: Cabin;
+  src: url(../font/Cabin/Cabin-Regular.ttf);
+}
+
+@font-face {
+  font-family: Forte;
+  src: url(../font/Forte/forte.ttf);
+}
+
+@font-face {
+  font-family: Kitahara;
+  src: url(../font/Kitahara/KitaharaScript.ttf);
+}
+
+@font-face {
+  font-family: Margetha;
+  src: url(../font/Margetha/Margetha.otf);
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -556,6 +577,20 @@ pre code {
  * Nuevos estilos
  */
 
+#phrase {
+  text-align: center;
+  color: #e7455f;
+  font-size: 1.5rem
+} 
+
+#phraseP {
+  text-align: center;
+}
+
+#notColor strong {
+  color: #000 !important
+}
+
 .t-0 { top: 0 }
 .b-0 { bottom: 0 }
 .l-0 { left: 0 }
@@ -583,8 +618,44 @@ pre code {
   font-family: Marcellus;
 }
 
-#ebook {
-  background-color: #f9eadf
+.imageEbook {
+  padding: 2rem;
+}
+
+.ebookText {
+  margin: 0 !important;
+  text-align: center;
+}
+
+.ebookText>span:nth-child(1) {
+  font-size: 3rem
+}
+
+.ebookText>span:nth-child(2) {
+  font-size: 5rem;
+}
+
+.ebookText>span:nth-child(3) {
+  font-size: 7.5rem
+}
+
+#ebook, #miporque, #testimonios {
+  background: url(../assets/img/bk.png) center center;
+  background-size: 100% 100%; 
+}
+
+.textWhite {
+  color: white !important
+}
+
+.miporqueText>p {
+  margin: 0 2rem;
+  color: white
+}
+
+#ebookDiv {
+  display: flex;
+  align-items: center;
 }
 
 div#ebookDiv form#ebookForm .form-group input.form-control {
@@ -595,24 +666,32 @@ div#ebookDiv form#ebookForm .form-group input.form-control {
 }
 
 .ebookText {
-  font-family: Marcellus;
-  font-size: 45px;
   color: white;
-  text-shadow: 3px 3px 5px #c0c0c0;
+  text-shadow: 3px 3px 5px #333333;
 }
 
 .col-lg-6.aboutMe > p {
   text-align: justify;
   margin-right: 50px;
+  font-family: 'Cabin';
+  font-size: 1.15rem
 }
 
 .testimonialsImg {
   width: 250px !important;
   height: 250px !important;
   border-radius: 50%;
-  box-shadow: 5px 5px 10px #cfcfcf;
+  box-shadow: 5px 5px 10px #333333;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.slick-slide>div>div>h2 {
+  color: white
+}
+
+.slick-slide>div>div>p {
+  color: white
 }
 
 .slick-slide div {
@@ -649,6 +728,16 @@ div#ebookDiv form#ebookForm .form-group input.form-control {
 
 .textModal ol, ul {
   text-align: justify;
+}
+
+#title1 {
+  font-family: 'Forte'
+}
+#title2 {
+  font-family: 'Margetha'
+}
+#title3 {
+  font-family: 'Kitahara'
 }
 /**
  * End Nuevos estilos
