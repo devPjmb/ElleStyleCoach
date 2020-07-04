@@ -66,6 +66,9 @@
                     </div>
                     <!-- SECTION 4 -->
                     <!-- SECTION 5 -->
+                    <!-- Button Paypal
+                    <div id="paypal-button-container"></div>
+                    -->
                 </div>
             </div>
         </section>
@@ -78,7 +81,6 @@
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!">Politica de Privacidad</a></div>
-                    <div id="paypal-button-container"></div>
                 </div>
             </div>
         </footer>
@@ -93,7 +95,31 @@
         <!-- Core theme JS-->
         <script src="js/slick.js"></script>
         <script src="js/scripts.js"></script>
-        <!-- PayPal Script -->
+         <!-- PayPal Script -->
         <script src="https://www.paypal.com/sdk/js?client-id=AYPbKXvipBjwRLWnW15KtTcfWnCwfqjA01nDFHdu1plH9bDqlD4VwtTC7W17UAqI-EOJBB1aIiCtf0ky"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function(){
+                paypal.Buttons({
+                    createOrder: function(data, actions) {
+                      // This function sets up the details of the transaction, including the amount and line item details.
+                      return actions.order.create({
+                        purchase_units: [{
+                          amount: {
+                            value: '0.01'
+                          }
+                        }]
+                      });
+                    },
+                    onApprove: function(data, actions) {
+                      // This function captures the funds from the transaction.
+                      return actions.order.capture().then(function(details) {
+                        // This function shows a transaction success message to your buyer.
+                        alert('Transaction completed by ' + details.payer.name.given_name);
+                      });
+                    }
+                  }).render('#paypal-button-container');
+                  //This function displays Smart Payment Buttons on your web page.
+            })
+        </script>
     </body>
 </html>
