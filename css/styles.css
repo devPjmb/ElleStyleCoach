@@ -463,6 +463,11 @@ mark,
   src: url(../font/Margetha/Margetha.otf);
 }
 
+@font-face {
+  font-family: 'Baskvill';
+  src: url(../font/Baskvill/Baskvill.ttf);
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -644,6 +649,33 @@ pre code {
   background-size: 100% 100%; 
 }
 
+#disenoNew {
+  background: url(../assets/img/bk.jpg) center center;
+  background-size: 100% 100%;
+}
+
+#disenoNew > h1, h2, h3, h4, h5, h6, span, p {
+  font-family: Baskvill;
+}
+
+#disenoNew > h1 {
+  color: #e7455f;
+}
+
+#disenoNew > .titleDisenoNew {
+  text-align: center
+}
+
+.row > .titleDisenoNew {
+  color: #ea465f;
+  font-family: Baskvill
+}
+
+#disenoNew > .pDisenoNew {
+  text-align: center;
+  font-size: 19px
+}
+
 .textWhite {
   color: white !important
 }
@@ -711,7 +743,7 @@ div#ebookDiv form#ebookForm .form-group input.form-control {
 }
 
 .asesorias {
-  width: 40%;
+  width: 20%;
   background: #e3d0c6;
   padding: 1rem;
   border-radius: 50%;

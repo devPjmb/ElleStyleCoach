@@ -123,21 +123,27 @@
                     <h2 class="section-heading text-uppercase">Asesorias</h2>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                    <!-- <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
                         <span class="asesorias">
                             <img src="assets/img/ll.svg" alt="Ellestylemechellange">
                         </span>
                         <h4 class="my-3">Ellestylemechellange</h4>
                         <p class="text-muted"><span>Es un reto de transformación de imagen en un mes para mujeres que quieren sentirse más seguras, empoderarse a través de la imagen, para lograr sus metas personales.</span></p>
                         <a class="btn btn-primary btn-block" data-toggle="modal" href="#ellestyle">Ver Más</a>
-                    </div>
-                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                    </div> -->
+                    <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
                         <span class="asesorias">
                             <img src="assets/img/ds.svg" alt="imagenatumedida">
                         </span>
                         <h4 class="my-3">Diseña tu imagen a tu medida</h4>
-                        <p class="text-muted"><span>Te sientes segura contigo misma, pero hay ciertas cosas que desconoces acerca de la imagen y te gustaría apréndelas para dominar tu esencia personal?</span></p>
-                        <a class="btn btn-primary btn-block" data-toggle="modal" href="#disena">Ver Más</a>
+                        <p class="text-muted">
+                            <span>
+                                <p>Quieres asesorarte en ciertos puntos que te ayudarán a potenciar tu imagen personal? </p>
+                                <p>Te sientes segura contigo misma, pero hay ciertas cosas que desconoces acerca de la imagen y te gustaría apréndelas para dominar tu esencia personal?  O por el contrario te falta un poco de seguridad y no logras tus objetivos por falta de confianza y compromiso? </p>
+                                <p>Te guiare en cada aspecto que necesites para lograr una imagen a tu medida acá te explico lo que lograrás con cada uno de nuestros asesoramientos por detallado.</p>
+                            </span>
+                        </p>
+                        <a class="btn btn-primary btn-block" href="diseno/">Ver Más</a>
                     </div>
                	</div>
             </div>
@@ -336,138 +342,10 @@
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!">Politica de Privacidad</a></div>
+                    <div id="paypal-button-container"></div>
                 </div>
             </div>
         </footer>
-        <div class="portfolio-modal modal fade" id="ellestyle" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                  <div class="lr">
-                    <div class="rl"></div>
-                  </div>
-                </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                      <div class="modal-body">
-                        <!-- Project Details Go Here -->
-                        <h2 class="text-uppercase">Ellestylemechellange</h2>
-                        <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
-                        <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/<?= $auxPortfolio->ProjectImg?>" alt=""> -->
-                        <div class="textModal">
-                            <p>
-                                Es un reto de transformación de imagen en un mes para mujeres que quieren sentirse más seguras, empoderarse a través de la imagen, para lograr sus metas personales.
-                            </p>
-                            <p>
-                                Incluye:
-                            </p>
-
-                            <p>
-                                5 Módulos a trabajar con el cliente
-                            </p>
-                            <ol>
-                                <li>Autoconocimiento e imagen interna</li>
-                                <li>Análisis de color</li>
-                                <li>Tipológia corporal</li>
-                                <li>Manejo visual y estratégico de vestuario</li>
-                                <li>Estilo personal</li>
-                            </ol>
-                            <p>
-                                Te ofrezco:
-                            </p>
-                            <p>
-                                8 sesiones.
-                            </p> 
-                            <p>
-                                8x 37,50= 300$
-                            </p>
-                            <p>
-                                2 sesiones gratis de 1 hora cada una 
-                            </p>                        
-                            <ul>
-                                <li>Quieres Proyectar una imagen coherente con tu personalidad?</li>
-                                <li>Quieres conocer que  prendas te sirven y potencia en tu tipología corporal?</li>
-                                <li>Quieres un cambio en tu vida y proyectar una buena imagen para tu trabajo y círculo social?</li>
-                            </ul>
-                            <p>
-                                En esta asesoría Mi objetivo es: Acompañarte en este proceso hasta que logres convertirte en una mejor versión de ti y puedas con esa seguridad que confiere tener un estilo personal y una imagen definida, lograr tu meta de ganar independencia personal y profesional, destacándote en tu area, haciendo lo que mejor sabes hacer sin tener que sentir inseguridad en la forma que te perciben los demás.
-                            </p>
-                        </div>
-                        <!-- <ul class="list-inline">
-                          <li>Date: January 2017</li>
-                          <li>Client: Window</li>
-                          <li>Category: Photography</li>
-                        </ul> -->
-                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                          <i class="fas fa-times"></i>
-                          Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-
-        <div class="portfolio-modal modal fade" id="disena" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                  <div class="lr">
-                    <div class="rl"></div>
-                  </div>
-                </div>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                      <div class="modal-body">
-                        <!-- Project Details Go Here -->
-                        <h2 class="text-uppercase">Diseña tu imagen a tu medida</h2>
-                        <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
-                        <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/<?= $auxPortfolio->ProjectImg?>" alt=""> -->
-                        <div class="textModal">
-                            <p>Quieres asesorarte en ciertos puntos que te ayudarán a potenciar tu imagen personal? </p>
-
-                            <p>Te sientes segura contigo misma, pero hay ciertas cosas que desconoces acerca de la imagen y te gustaría apréndelas para dominar tu esencia personal?  O por el contrario te falta un poco de seguridad y no logras tus objetivos por falta de confianza y compromiso? </p>
-
-                            <p>Te guiare en cada aspecto que necesites para lograr una imagen a tu medida acá te explico lo que lograrás con cada uno de nuestros asesoramientos por detallado.</p>
-                             
-                            <p>Costo: 47,50$ la hora</p>
-
-                            <p>Servicios individuales, solo se habla de un tema de interés personal</p>
-
-                            <p>1.  Autoconocimiento e imagen interna:
-                            Con este asesoramiento te ayudaré a comprender quien realmente eres, si entiendes quién eres entrarás en un proceso espontáneo de transformación, tendrás claridad en cómo deseas ser percibida y así alcanzar tus objetivos y metas con más seguridad, pero al contrario si sólo tratas de cambiar tu imagen externa y convertirte en aquello que crees que deberías ser no se producirá ningún cambio tan sólo una continuación de lo viejo con una apariencia diferente, Es por eso que esta asesoría es la base para construir una imagen firme de ti y que perdure en el tiempo.</p>
-
-                            <p>2.  Análisis de color
-                            Que los colores ejerza influencia sobre nuestras emociones y estados de ánimo es un hecho conocido desde tiempos inmemoriales, la verdad es que el color en todos los aspectos de nuestras vidas es sumamente central; El color tiene importancia en varios sentidos, expresar estados de ánimo, nos permite darnos a conocer y señalar nuestra identidad, sirve para distinguir nuestro producto de otro, sirve para comunicar a través del color de nuestra vestimenta etc.</p>
-                            <p>Esta asesoría es fundamental para establecer cuáles son aquellos tonos en prendas de vestir accesorios maquillaje y Cabello que van a favorecer y armonizar con tus características físicas naturales adicionalmente te brindaré sugerencias relacionadas a correcciones ópticas en mensajes según la ocasión, aprenderás a identificar los colores que te favorecen y los que te desfavorecen aprenderás a realizar combinaciones efectivas de colores tonos de tintura del cabello y maquillaje según tu características naturales.</p>
-
-                            <p>3.  Tipológia corporal:
-                            Con la forma de nuestro cuerpo nacemos y aunque bajemos o subamos de peso siempre se mantendrá la misma forma, saber cuál es nuestra tipología corporal nos ayudará a entender con mayor facilidad la importancia de saber y corregir ópticamente nuestra imagen a través de la indumentaria con esta asesoría vamos a conocer tu tipología corporal y así determinar qué prendas de vestir son las más adecuadas para ti.</p>
-
-
-                            <p>4.  Manejo visual y estratégico de vestuario</p>
-                            <p>5.  Estilo personal</p>
-
-                            <p>Precio c/u 47,50$</p>
-                        </div>
-                        <!-- <ul class="list-inline">
-                          <li>Date: January 2017</li>
-                          <li>Client: Window</li>
-                          <li>Category: Photography</li>
-                        </ul> -->
-                        <button class="btn btn-primary" data-dismiss="modal" type="button">
-                          <i class="fas fa-times"></i>
-                          Cerrar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
         <!-- Bootstrap core JS-->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
@@ -479,5 +357,31 @@
         <!-- Core theme JS-->
         <script src="js/slick.js"></script>
         <script src="js/scripts.js"></script>
+        <!-- PayPal Script -->
+        <script src="https://www.paypal.com/sdk/js?client-id=AYPbKXvipBjwRLWnW15KtTcfWnCwfqjA01nDFHdu1plH9bDqlD4VwtTC7W17UAqI-EOJBB1aIiCtf0ky"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function(){
+                paypal.Buttons({
+                    createOrder: function(data, actions) {
+                      // This function sets up the details of the transaction, including the amount and line item details.
+                      return actions.order.create({
+                        purchase_units: [{
+                          amount: {
+                            value: '0.01'
+                          }
+                        }]
+                      });
+                    },
+                    onApprove: function(data, actions) {
+                      // This function captures the funds from the transaction.
+                      return actions.order.capture().then(function(details) {
+                        // This function shows a transaction success message to your buyer.
+                        alert('Transaction completed by ' + details.payer.name.given_name);
+                      });
+                    }
+                  }).render('#paypal-button-container');
+                  //This function displays Smart Payment Buttons on your web page.
+            })
+        </script>
     </body>
 </html>
