@@ -64,10 +64,10 @@
                     <div class="col-sm-4" id="ebookDiv">
                         <form action="#" id="ebookForm" novalidate="novalidate" class="my-5 w-90">
                             <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingrese su nombre." >
+                                <input class="form-control" id="nameEbook" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingrese su nombre." >
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="email" type="text" placeholder="Correo Electronico *" required="required" data-validation-required-message="Ingrese su correo.">
+                                <input class="form-control" id="emailEbook" type="text" placeholder="Correo Electronico *" required="required" data-validation-required-message="Ingrese su correo.">
                             </div>
                             <div class="text-center">
                                 <button class="btn btn-primary btn-block text-uppercase" type="submit">ENVIAR</button>

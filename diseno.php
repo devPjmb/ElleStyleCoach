@@ -34,15 +34,15 @@
             </div>
         </nav>
         <section class="page-section py-5 px-2 my-5" id="disenoNew">
-            <h1 class="titleDisenoNew">DISEÑA TU IMAGEN A TU MEDIDA</h1>
-            <p class="pDisenoNew">Te sientes segura contigo misma, pero hay ciertas cosas que desconoces acerca de la imagen y te gustaría apréndelas para dominar tu esencia personal?  O por el contrario te falta un poco de seguridad y no logras tus objetivos por falta de confianza y compromiso? </p>
-            <p class="pDisenoNew">Te guiare en cada aspecto que necesites para lograr una imagen a tu medida acá te explico lo que lograrás con cada uno de nuestros asesoramientos por detallado.</p>
+            <h1 class="titleDisenoNew fontBaskevill">DISEÑA TU IMAGEN A TU MEDIDA</h1>
+            <p class="pDisenoNew fontBaskevill">Te sientes segura contigo misma, pero hay ciertas cosas que desconoces acerca de la imagen y te gustaría apréndelas para dominar tu esencia personal?  O por el contrario te falta un poco de seguridad y no logras tus objetivos por falta de confianza y compromiso? </p>
+            <p class="pDisenoNew fontBaskevill">Te guiare en cada aspecto que necesites para lograr una imagen a tu medida acá te explico lo que lograrás con cada uno de nuestros asesoramientos por detallado.</p>
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
                     <!-- SECTION 1 -->
                     <h1 class="titleDisenoNew col-lg-12 text-center my-5">1. Autoconocimiento e imagen interna:</h1>
                     <div class="col-lg-6">
-                        <p class="text-justify">Con este asesoramiento te ayudaré a comprender quien realmente eres, si entiendes quién eres entrarás en un proceso espontáneo de transformación, tendrás claridad en cómo deseas ser percibida y así alcanzar tus objetivos y metas con más seguridad, pero al contrario si sólo tratas de cambiar tu imagen externa y convertirte en aquello que crees que deberías ser no se producirá ningún cambio tan sólo una continuación de lo viejo con una apariencia diferente, Es por eso que esta asesoría es la base para construir una imagen firme de ti y que perdure en el tiempo.</p>
+                        <p class="text-justify fontBaskevill">Con este asesoramiento te ayudaré a comprender quien realmente eres, si entiendes quién eres entrarás en un proceso espontáneo de transformación, tendrás claridad en cómo deseas ser percibida y así alcanzar tus objetivos y metas con más seguridad, pero al contrario si sólo tratas de cambiar tu imagen externa y convertirte en aquello que crees que deberías ser no se producirá ningún cambio tan sólo una continuación de lo viejo con una apariencia diferente, Es por eso que esta asesoría es la base para construir una imagen firme de ti y que perdure en el tiempo.</p>
                     </div>
                     <div class="col-lg-6 text-center">
                         <img class="img-fluid w-50" src="assets/img/diseno1.jpg">
@@ -50,11 +50,11 @@
                     <!-- SECTION 2 -->
                     <h1 class="titleDisenoNew col-lg-12 text-center my-5">2. Análisis de color</h1>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid w-50" src="assets/img/diseno2.jpg">
+                        <img class="img-fluid w-75" src="assets/img/diseno2.jpg">
                     </div>
                     <div class="col-lg-6">
-                        <p class="text-justify">Que los colores ejerza influencia sobre nuestras emociones y estados de ánimo es un hecho conocido desde tiempos inmemoriales, la verdad es que el color en todos los aspectos de nuestras vidas es sumamente central; El color tiene importancia en varios sentidos, expresar estados de ánimo, nos permite darnos a conocer y señalar nuestra identidad, sirve para distinguir nuestro producto de otro, sirve para comunicar a través del color de nuestra vestimenta etc.</p>
-                        <p class="text-justify">Esta asesoría es fundamental para establecer cuáles son aquellos tonos en prendas de vestir accesorios maquillaje y Cabello que van a favorecer y armonizar con tus características físicas naturales adicionalmente te brindaré sugerencias relacionadas a correcciones ópticas en mensajes según la ocasión, aprenderás a identificar los colores que te favorecen y los que te desfavorecen aprenderás a realizar combinaciones efectivas de colores tonos de tintura del cabello y maquillaje según tu características naturales.</p>
+                        <p class="text-justify fontBaskevill">Que los colores ejerza influencia sobre nuestras emociones y estados de ánimo es un hecho conocido desde tiempos inmemoriales, la verdad es que el color en todos los aspectos de nuestras vidas es sumamente central; El color tiene importancia en varios sentidos, expresar estados de ánimo, nos permite darnos a conocer y señalar nuestra identidad, sirve para distinguir nuestro producto de otro, sirve para comunicar a través del color de nuestra vestimenta etc.</p>
+                        <p class="text-justify fontBaskevill">Esta asesoría es fundamental para establecer cuáles son aquellos tonos en prendas de vestir accesorios maquillaje y Cabello que van a favorecer y armonizar con tus características físicas naturales adicionalmente te brindaré sugerencias relacionadas a correcciones ópticas en mensajes según la ocasión, aprenderás a identificar los colores que te favorecen y los que te desfavorecen aprenderás a realizar combinaciones efectivas de colores tonos de tintura del cabello y maquillaje según tu características naturales.</p>
                     </div>
                     <!-- SECTION 3 -->
                     <h1 class="titleDisenoNew col-lg-12 text-center my-5">3. Tipológia corporal</h1>
@@ -62,13 +62,17 @@
                         <img class="img-fluid w-50" src="assets/img/diseno3.jpg">
                     </div>
                     <div class="col-lg-12">
-                        <p class="text-justify">Con la forma de nuestro cuerpo nacemos y aunque bajemos o subamos de peso siempre se mantendrá la misma forma, saber cuál es nuestra tipología corporal nos ayudará a entender con mayor facilidad la importancia de saber y corregir ópticamente nuestra imagen a través de la indumentaria con esta asesoría vamos a conocer tu tipología corporal y así determinar qué prendas de vestir son las más adecuadas para ti.</p>
+                        <p class="text-justify fontBaskevill">Con la forma de nuestro cuerpo nacemos y aunque bajemos o subamos de peso siempre se mantendrá la misma forma, saber cuál es nuestra tipología corporal nos ayudará a entender con mayor facilidad la importancia de saber y corregir ópticamente nuestra imagen a través de la indumentaria con esta asesoría vamos a conocer tu tipología corporal y así determinar qué prendas de vestir son las más adecuadas para ti.</p>
                     </div>
                     <!-- SECTION 4 -->
                     <!-- SECTION 5 -->
                     <!-- Button Paypal
                     <div id="paypal-button-container"></div>
                     -->
+                    <div class="shopList" id="shopList"><ol>
+                        <li>1 item</li>
+                    </ol></div>
+                    <div class="iconCart" id="iconCart"><span class="fa fa-shopping-cart fa-2x"></span></div>
                 </div>
             </div>
         </section>
@@ -98,7 +102,7 @@
          <!-- PayPal Script -->
         <script src="https://www.paypal.com/sdk/js?client-id=AYPbKXvipBjwRLWnW15KtTcfWnCwfqjA01nDFHdu1plH9bDqlD4VwtTC7W17UAqI-EOJBB1aIiCtf0ky"></script>
         <script type="text/javascript">
-            jQuery(document).ready(function(){
+            $(document).ready(function(){
                 paypal.Buttons({
                     createOrder: function(data, actions) {
                       // This function sets up the details of the transaction, including the amount and line item details.
@@ -119,6 +123,10 @@
                     }
                   }).render('#paypal-button-container');
                   //This function displays Smart Payment Buttons on your web page.
+                  //
+                  $("#iconCart").on('click',function(e){
+                    console.log('Entro')
+                  })
             })
         </script>
     </body>

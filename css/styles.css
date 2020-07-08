@@ -676,6 +676,31 @@ pre code {
   font-size: 19px
 }
 
+.iconCart {
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+  background-color: #fdcaaa;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  box-shadow: 2px 2px 5px #00000096;
+}
+
+.shopList {
+  position: fixed;
+  bottom: 70px;
+  right: 15px;
+  background-color: #fdcaaa;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #00000096;
+}
+
 .textWhite {
   color: white !important
 }
