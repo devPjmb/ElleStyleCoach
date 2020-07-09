@@ -40,9 +40,11 @@
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
                     <!-- SECTION 1 -->
-                    <h1 class="titleDisenoNew col-lg-12 text-center my-5">1. Autoconocimiento e imagen interna:</h1>
+                    <h1 class="titleDisenoNew col-lg-12 text-center my-5">1. Autoconocimiento e imagen interna</h1>
                     <div class="col-lg-6">
                         <p class="text-justify fontBaskevill">Con este asesoramiento te ayudaré a comprender quien realmente eres, si entiendes quién eres entrarás en un proceso espontáneo de transformación, tendrás claridad en cómo deseas ser percibida y así alcanzar tus objetivos y metas con más seguridad, pero al contrario si sólo tratas de cambiar tu imagen externa y convertirte en aquello que crees que deberías ser no se producirá ningún cambio tan sólo una continuación de lo viejo con una apariencia diferente, Es por eso que esta asesoría es la base para construir una imagen firme de ti y que perdure en el tiempo.</p>
+                        <p id="priceD1" data-val="48.50" data-title="Autoconocimiento e imagen interna">$ 48.50</p>
+                        <button id="addDiseno1" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <div class="col-lg-6 text-center">
                         <img class="img-fluid w-50" src="assets/img/diseno1.jpg">
@@ -55,6 +57,8 @@
                     <div class="col-lg-6">
                         <p class="text-justify fontBaskevill">Que los colores ejerza influencia sobre nuestras emociones y estados de ánimo es un hecho conocido desde tiempos inmemoriales, la verdad es que el color en todos los aspectos de nuestras vidas es sumamente central; El color tiene importancia en varios sentidos, expresar estados de ánimo, nos permite darnos a conocer y señalar nuestra identidad, sirve para distinguir nuestro producto de otro, sirve para comunicar a través del color de nuestra vestimenta etc.</p>
                         <p class="text-justify fontBaskevill">Esta asesoría es fundamental para establecer cuáles son aquellos tonos en prendas de vestir accesorios maquillaje y Cabello que van a favorecer y armonizar con tus características físicas naturales adicionalmente te brindaré sugerencias relacionadas a correcciones ópticas en mensajes según la ocasión, aprenderás a identificar los colores que te favorecen y los que te desfavorecen aprenderás a realizar combinaciones efectivas de colores tonos de tintura del cabello y maquillaje según tu características naturales.</p>
+                        <p id="priceD2" data-val="48.50" data-title="Analisis de color">$ 48.50</p>
+                        <button id="addDiseno2" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <!-- SECTION 3 -->
                     <h1 class="titleDisenoNew col-lg-12 text-center my-5">3. Tipológia corporal</h1>
@@ -63,14 +67,50 @@
                     </div>
                     <div class="col-lg-12">
                         <p class="text-justify fontBaskevill">Con la forma de nuestro cuerpo nacemos y aunque bajemos o subamos de peso siempre se mantendrá la misma forma, saber cuál es nuestra tipología corporal nos ayudará a entender con mayor facilidad la importancia de saber y corregir ópticamente nuestra imagen a través de la indumentaria con esta asesoría vamos a conocer tu tipología corporal y así determinar qué prendas de vestir son las más adecuadas para ti.</p>
+                        <p id="priceD3" data-val="48.50" data-title="Tipologia corporal">$ 48.50</p>
+                        <button id="addDiseno3" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <!-- SECTION 4 -->
+                    <h1 class="titleDisenoNew col-lg-12 text-center my-5">4. Manejo visual y estratégico del vestuario</h1>
+                    <div class="col-lg-6">
+                        <p class="text-justify fontBaskevill">Quieres lucir más alta o más delgada?<br>
+                            Tienes pocas curvas y quisieras lucir más curvilínea? <br> O tal vez eres muy curvilínea y quisieras que se aprecien menos?<br>
+
+                            La clave para lograr que cualquier persona luzca increíble es crear un equilibrio a través del vestuario este conocimiento te ayudará a tener las herramientas necesarias y esenciales a la hora de crear balance y proporción con tu tipo de cuerpo.
+
+                            Además profundizaremos en temas vinculados al manejo estratégico Del vestuario los mensajes, las características de las prendas las ocasiones en que debe de usarse cierto tipo de vestimenta según el código de vestuario y las estrategias de vestir conforme a tu edad.
+
+                            Con estas herramientas que te daré Amarás tu guardarropa y tu imagen! Ya verás! me lo agradecerás!!!</p>
+                            <p id="priceD4" data-val="48.50" data-title="Manejo visual y estrategico del vestuario">$ 48.50</p>
+                            <button id="addDiseno4" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img class="img-fluid w-50" src="assets/img/diseno5.jpg">
+                    </div>
                     <!-- SECTION 5 -->
+                    <h1 class="titleDisenoNew col-lg-12 text-center my-5">5. Estilo personal</h1>
+                    <div class="col-lg-6 text-center">
+                        <img class="img-fluid w-50" src="assets/img/diseno4.jpg">
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="text-justify fontBaskevill">¿Que es el estilo personal?
+                        El estilo es la identidad, lo que nos hace únicos especiales y diferentes la palabra estilo tiene su origen en el término latino (Estillus) y aunque muchos lo asocian con las preferencias en cuanto al vestuario de una persona, este término trasciende el vestuario Las preferencias en cuanto al vestuario y se puede ver reflejado En aspectos como las preferencias de la decoración de su entorno lo que le gusta comer, leer, los lugares que frecuencia, las actividades que realiza en su día a día, entre otras. En conclusión está muy ligado con el estilo de vida valores y visión de vida de la persona para poder definir un estilo personal es muy importante conectarnos con nuestro ser interno con nuestra naturaleza y realizar un proceso de autoconocimiento.
+                        <br>
+                        Una frase que define muy bien la diferencia entre moda y estilo es:
+                        <br>
+                        <strong>“La moda cambia el estilo prevalece”</strong> 
+                        una frase de  <strong>Coco Chanel</strong>.<br>
+                        A través de esta asesoría del estilo personal mi reto es guiarte a no ser víctima de la moda y que logres crear un estilo propio, que juntas descubramos tú esencia personal , eso que te hace única e irrepetible.
+
+                        Mi objetivo principal es brindarte herramientas para que puedas filtrar toda esta información e identificar muy bien lo que te favorece dentro del universo de opciones y de información que genera el mercado.</p>
+                        <p id="priceD5" data-val="48.50" data-title="Estilo personal">$ 48.50</p>
+                        <button id="addDiseno5" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
+                    </div>
                     <!-- Button Paypal
                     <div id="paypal-button-container"></div>
                     -->
                     <div class="shopList" id="shopList"><ol>
-                        <li>1 item</li>
+                        <div id="paypal-button-container"></div>
                     </ol></div>
                     <div class="iconCart" id="iconCart"><span class="fa fa-shopping-cart fa-2x"></span></div>
                 </div>
@@ -102,31 +142,54 @@
          <!-- PayPal Script -->
         <script src="https://www.paypal.com/sdk/js?client-id=AYPbKXvipBjwRLWnW15KtTcfWnCwfqjA01nDFHdu1plH9bDqlD4VwtTC7W17UAqI-EOJBB1aIiCtf0ky"></script>
         <script type="text/javascript">
-            $(document).ready(function(){
+            jQuery(document).ready(function(){
+                let amountValue1  = 0, amountValue2 = 0, amountValue3 = 0, amountValue4 = 0, amountValue5 = 0, amountValue
+                let title1, title2, title3, title4, title5
+                let shoppingList = jQuery("#shopList").children(1)
+                 jQuery("#addDiseno1").click(function(e){
+                    amountValue1 = jQuery("#priceD1").data().val
+                    title1 = jQuery("#priceD1").data().title
+                    shoppingList.append("<li>"+title1+"</li>")
+                })
+                jQuery("#addDiseno2").click(function(e){
+                    amountValue2 = jQuery("#priceD2").data().val
+                    title2 = jQuery("#priceD2").data().title
+                    shoppingList.append("<li>"+title2+"</li>")
+                })
+                jQuery("#addDiseno3").click(function(e){
+                    amountValue3 = jQuery("#priceD3").data().val
+                    title3 = jQuery("#priceD3").data().title
+                    shoppingList.append("<li>"+title3+"</li>")
+                })
+                jQuery("#addDiseno4").click(function(e){
+                    amountValue4 = jQuery("#priceD4").data().val
+                    title4 = jQuery("#priceD4").data().title
+                    shoppingList.append("<li>"+title4+"</li>")
+                })
+                jQuery("#addDiseno5").click(function(e){
+                    amountValue5 = jQuery("#priceD5").data().val
+                    title5 = jQuery("#priceD5").data().title
+                    shoppingList.append("<li>"+title5+"</li>")
+                })
+                jQuery("#iconCart").click(function(){
+                    amountValue = parseFloat(amountValue1) + parseFloat(amountValue2) + parseFloat(amountValue3) + parseFloat(amountValue4) + parseFloat(amountValue5)
+                })
                 paypal.Buttons({
                     createOrder: function(data, actions) {
-                      // This function sets up the details of the transaction, including the amount and line item details.
                       return actions.order.create({
                         purchase_units: [{
                           amount: {
-                            value: '0.01'
+                            value: parseFloat(amountValue)
                           }
                         }]
                       });
                     },
                     onApprove: function(data, actions) {
-                      // This function captures the funds from the transaction.
                       return actions.order.capture().then(function(details) {
-                        // This function shows a transaction success message to your buyer.
-                        alert('Transaction completed by ' + details.payer.name.given_name);
+                        console.log('Transaction completed by ' + details.payer.name.given_name);
                       });
                     }
                   }).render('#paypal-button-container');
-                  //This function displays Smart Payment Buttons on your web page.
-                  //
-                  $("#iconCart").on('click',function(e){
-                    console.log('Entro')
-                  })
             })
         </script>
     </body>
