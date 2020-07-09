@@ -146,7 +146,7 @@
                 let amountValue1  = 0, amountValue2 = 0, amountValue3 = 0, amountValue4 = 0, amountValue5 = 0, amountValue
                 let title1, title2, title3, title4, title5
                 let shoppingList = jQuery("#shopList").children(1)
-                 jQuery("#addDiseno1").click(function(e){
+                jQuery("#addDiseno1").click(function(e){
                     amountValue1 = jQuery("#priceD1").data().val
                     title1 = jQuery("#priceD1").data().title
                     shoppingList.append("<li>"+title1+"</li>")
@@ -179,7 +179,7 @@
                       return actions.order.create({
                         purchase_units: [{
                           amount: {
-                            value: parseFloat(amountValue)
+                            value: amountValue
                           }
                         }]
                       });
