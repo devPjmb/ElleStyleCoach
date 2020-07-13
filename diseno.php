@@ -47,12 +47,12 @@
                         <button id="addDiseno1" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid w-50" src="assets/img/diseno1.jpg">
+                        <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.jpg">
                     </div>
                     <!-- SECTION 2 -->
                     <h1 class="titleDisenoNew col-lg-12 text-center my-5">2. Análisis de color</h1>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid w-75" src="assets/img/diseno2.jpg">
+                        <img class="img-fluid imgDiseno w-75" src="assets/img/diseno2.jpg">
                     </div>
                     <div class="col-lg-6">
                         <p class="text-justify fontBaskevill">Que los colores ejerza influencia sobre nuestras emociones y estados de ánimo es un hecho conocido desde tiempos inmemoriales, la verdad es que el color en todos los aspectos de nuestras vidas es sumamente central; El color tiene importancia en varios sentidos, expresar estados de ánimo, nos permite darnos a conocer y señalar nuestra identidad, sirve para distinguir nuestro producto de otro, sirve para comunicar a través del color de nuestra vestimenta etc.</p>
@@ -63,7 +63,7 @@
                     <!-- SECTION 3 -->
                     <h1 class="titleDisenoNew col-lg-12 text-center my-5">3. Tipológia corporal</h1>
                     <div class="col-lg-12 text-center">
-                        <img class="img-fluid w-50" src="assets/img/diseno3.jpg">
+                        <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno3.jpg">
                     </div>
                     <div class="col-lg-12">
                         <p class="text-justify fontBaskevill">Con la forma de nuestro cuerpo nacemos y aunque bajemos o subamos de peso siempre se mantendrá la misma forma, saber cuál es nuestra tipología corporal nos ayudará a entender con mayor facilidad la importancia de saber y corregir ópticamente nuestra imagen a través de la indumentaria con esta asesoría vamos a conocer tu tipología corporal y así determinar qué prendas de vestir son las más adecuadas para ti.</p>
@@ -85,12 +85,12 @@
                             <button id="addDiseno4" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid w-50" src="assets/img/diseno5.jpg">
+                        <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno5.jpg">
                     </div>
                     <!-- SECTION 5 -->
                     <h1 class="titleDisenoNew col-lg-12 text-center my-5">5. Estilo personal</h1>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid w-50" src="assets/img/diseno4.jpg">
+                        <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno4.jpg">
                     </div>
                     <div class="col-lg-6">
                         <p class="text-justify fontBaskevill">¿Que es el estilo personal?

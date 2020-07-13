@@ -662,6 +662,10 @@ pre code {
   color: #e7455f;
 }
 
+.imgDiseno{
+  box-shadow: 3px 3px 5px black;
+}
+
 #disenoNew > .titleDisenoNew {
   text-align: center
 }
