@@ -11,6 +11,7 @@
         <script src="js/all.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/jquery-confirm.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
         <link rel="stylesheet" type="text/css" href="css/slick.css">
     </head>
@@ -109,9 +110,11 @@
                     <!-- Button Paypal
                     <div id="paypal-button-container"></div>
                     -->
-                    <div class="shopList" id="shopList"><ol>
+                    <div class="shopList" id="shopList">
+                        <ol id="shopListOL">
+                        </ol>
                         <div id="paypal-button-container"></div>
-                    </ol></div>
+                    </div>
                     <div class="iconCart" id="iconCart"><span class="fa fa-shopping-cart fa-2x"></span></div>
                 </div>
             </div>
@@ -139,55 +142,72 @@
         <!-- Core theme JS-->
         <script src="js/slick.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/jquery-confirm.js"></script>
          <!-- PayPal Script -->
         <script src="https://www.paypal.com/sdk/js?client-id=AYPbKXvipBjwRLWnW15KtTcfWnCwfqjA01nDFHdu1plH9bDqlD4VwtTC7W17UAqI-EOJBB1aIiCtf0ky"></script>
         <script type="text/javascript">
             jQuery(document).ready(function(){
                 let amountValue1  = 0, amountValue2 = 0, amountValue3 = 0, amountValue4 = 0, amountValue5 = 0, amountValue
                 let title1, title2, title3, title4, title5
-                let shoppingList = jQuery("#shopList").children(1)
+                let shoppingList = jQuery("#shopListOL")
                 jQuery("#addDiseno1").click(function(e){
                     amountValue1 = jQuery("#priceD1").data().val
                     title1 = jQuery("#priceD1").data().title
-                    shoppingList.append("<li>"+title1+"</li>")
+                    shoppingList.append("<li>"+title1+" <sup data-remove='1' id='removeID1'><i class='far fa-trash-alt'></i></sup> </li>")
                 })
                 jQuery("#addDiseno2").click(function(e){
                     amountValue2 = jQuery("#priceD2").data().val
                     title2 = jQuery("#priceD2").data().title
-                    shoppingList.append("<li>"+title2+"</li>")
+                    shoppingList.append("<li>"+title2+" <sup data-remove='2' id='removeID2'><i class='far fa-trash-alt'></i></sup> </li>")
                 })
                 jQuery("#addDiseno3").click(function(e){
                     amountValue3 = jQuery("#priceD3").data().val
                     title3 = jQuery("#priceD3").data().title
-                    shoppingList.append("<li>"+title3+"</li>")
+                    shoppingList.append("<li>"+title3+" <sup data-remove='3' id='removeID3'><i class='far fa-trash-alt'></i></sup> </li>")
                 })
                 jQuery("#addDiseno4").click(function(e){
                     amountValue4 = jQuery("#priceD4").data().val
                     title4 = jQuery("#priceD4").data().title
-                    shoppingList.append("<li>"+title4+"</li>")
+                    shoppingList.append("<li>"+title4+" <sup data-remove='4' id='removeID4'><i class='far fa-trash-alt'></i></sup> </li>")
                 })
                 jQuery("#addDiseno5").click(function(e){
                     amountValue5 = jQuery("#priceD5").data().val
                     title5 = jQuery("#priceD5").data().title
-                    shoppingList.append("<li>"+title5+"</li>")
-                })
-                jQuery("#iconCart").click(function(){
-                    amountValue = parseFloat(amountValue1) + parseFloat(amountValue2) + parseFloat(amountValue3) + parseFloat(amountValue4) + parseFloat(amountValue5)
+                    shoppingList.append("<li>"+title5+" <sup data-remove='5' id='removeID5'><i class='far fa-trash-alt'></i></sup> </li>")
                 })
                 paypal.Buttons({
+                    style:{
+                        layout: 'horizontal',
+                        color: 'black',
+                        shape: 'pill',
+                        tagline: true
+                    },
                     createOrder: function(data, actions) {
                       return actions.order.create({
                         purchase_units: [{
                           amount: {
-                            value: amountValue
+                            value: parseFloat(amountValue1) + parseFloat(amountValue2) + parseFloat(amountValue3) + parseFloat(amountValue4) + parseFloat(amountValue5)
                           }
                         }]
                       });
                     },
                     onApprove: function(data, actions) {
                       return actions.order.capture().then(function(details) {
-                        console.log('Transaction completed by ' + details.payer.name.given_name);
+                        $.alert({
+                            title: 'Exito',
+                            content: details.payer.name.given_name + ' Transaccion completada de manera exitosa.',
+                            type: 'green',
+                            typeAnimated: true
+                        });
                       });
+                    },
+                    onError: function(err) {
+                        $.alert({
+                            title: 'Error',
+                            content: 'Ocurrio un error, por favor intente de nuevo mas tarde',
+                            type: 'red',
+                            typeAnimated: true
+                        });
                     }
                   }).render('#paypal-button-container');
             })

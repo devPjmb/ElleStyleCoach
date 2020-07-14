@@ -700,9 +700,17 @@ pre code {
   bottom: 70px;
   right: 15px;
   background-color: #fdcaaa;
-  width: 200px;
+  width: 350px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #00000096;
+}
+
+#paypal-button-container {
+  padding: 0 25px;
+}
+
+sup {
+  cursor: pointer;
 }
 
 .textWhite {
