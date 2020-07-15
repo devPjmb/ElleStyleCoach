@@ -12,6 +12,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/media-styles.css" rel="stylesheet" />
+        <link href="css/jquery-confirm.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
         <link rel="stylesheet" type="text/css" href="css/slick.css">
     </head>
@@ -354,6 +355,8 @@
         <!-- Contact form JS-->
         <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>
+        <script src="assets/clients/insertClients.js"></script>
+        <script src="js/jquery-confirm.js"></script>
         <!-- Core theme JS-->
         <script src="js/slick.js"></script>
         <script src="js/scripts.js"></script>

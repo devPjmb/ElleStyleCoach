@@ -9,8 +9,8 @@ $(function () {
         submitSuccess: function ($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
-            var name = $("input#name").val();
-            var email = $("input#email").val();
+            var name = $("input#nameEbook").val();
+            var email = $("input#emailEbook").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(" ") >= 0) {
@@ -27,37 +27,21 @@ $(function () {
                 },
                 cache: false,
                 success: function () {
-                    // Success message
-                    $("#success").html("<div class='alert alert-success'>");
-                    $("#success > .alert-success")
-                        .html(
-                            "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;"
-                        )
-                        .append("</button>");
-                    $("#success > .alert-success").append(
-                        "<strong>Su mensaje ha sido enviado de manera satifactoria. </strong>"
-                    );
-                    $("#success > .alert-success").append("</div>");
-                    //clear all fields
+                    $.alert({
+                        title: '¡Exito!',
+                        content: 'En un momento me pondre en contacto con usted.',
+                        type: 'green',
+                        typeAnimated: true
+                    });
                     $("#ebookForm").trigger("reset");
                 },
                 error: function () {
-                    // Fail message
-                    $("#success").html("<div class='alert alert-danger'>");
-                    $("#success > .alert-danger")
-                        .html(
-                            "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;"
-                        )
-                        .append("</button>");
-                    $("#success > .alert-danger").append(
-                        $("<strong>").text(
-                            "Lo sentimos, " +
-                                firstName +
-                                ", ha ocurrido un error al momento de enviar su mensaje, intente de nuevo mas tarde."
-                        )
-                    );
-                    $("#success > .alert-danger").append("</div>");
-                    //clear all fields
+                    $.alert({
+                        title: '¡Error!',
+                        content: 'Ha ocurrido un error, vuelva a intentarlo en otro momento.',
+                        type: 'red',
+                        typeAnimated: true
+                    });
                     $("#ebookForm").trigger("reset");
                 },
                 complete: function () {
