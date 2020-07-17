@@ -1,4 +1,5 @@
 <?php
+	error_reporting(E_ALL ^ E_NOTICE);
 	require_once '../db/_connectionDB.php';
 
 	$post = $_POST;
@@ -12,8 +13,8 @@
 		return false;
 	}
 
-	$name          = strip_tags(htmlspecialchars($_POST['name']));
-	$email_address = strip_tags(htmlspecialchars($_POST['email']));
+	$name          = $_POST['name'];
+	$email_address = $_POST['email'];
 
 	$to            = 'ellestyl@ellestylecoach.com';
 	$email_subject = "Descarga del E-Book:  $name";
@@ -21,12 +22,18 @@
 	$headers       = "De: noreply@ellestylecoach.com\n";
 	$headers      .= "Responder a: $email_address";
 
-	//@mail($to,$email_subject,$email_body,$headers);
+	$sendMail      = @mail($to,$email_subject,$email_body,$headers);
 
-	$sqlInsert     = "INSERT INTO Clients (Name, Email) VALUES ('{$name}', '{$email_address}')";
-	$insertClientQ = $mysqli -> query($sqlInsert);
-	
-	if($insertClientQ)
-		return true;
-	else
+	if($sendMail){
+		$sqlInsert     = "INSERT INTO Clients (Name, Email) VALUES ('{$name}', '{$email_address}')";
+		$insertClientQ = $mysqli -> query($sqlInsert);
+		if($insertClientQ)
+			return true;
+		else
+			return false;
+	}else{
+		print_r(error_get_last()['message']);
 		return false;
+	}
+
+	
