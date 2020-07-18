@@ -16,6 +16,14 @@
         <link rel="stylesheet" type="text/css" href="css/slick.css">
     </head>
     <body id="page-top">
+        <div class="col-12 w-100 d-flex justify-content-between fixed-top navtop" id="socialNetwok">
+            <span>hola@ellestylecoach.com</span>
+            <span class="d-flex justify-content-around align-items-center">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-whatsapp"></i>
+            </span>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0" id="mainNav">
             <div class="container">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
@@ -35,9 +43,10 @@
             </div>
         </nav>
         <section class="page-section py-5 px-2 my-5" id="disenoNew">
-            <h1 class="titleDisenoNew fontBaskevill">DISEÑA TU IMAGEN A TU MEDIDA</h1>
-            <p class="pDisenoNew fontBaskevill">Te sientes segura contigo misma, pero hay ciertas cosas que desconoces acerca de la imagen y te gustaría apréndelas para dominar tu esencia personal?  O por el contrario te falta un poco de seguridad y no logras tus objetivos por falta de confianza y compromiso? </p>
-            <p class="pDisenoNew fontBaskevill">Te guiare en cada aspecto que necesites para lograr una imagen a tu medida acá te explico lo que lograrás con cada uno de nuestros asesoramientos por detallado.</p>
+            <p class="titleDisenoNew fontBaskevill p-5">DISEÑA TU IMAGEN A TU MEDIDA</p>
+            <p class="pDisenoNew fontBaskevill">Muchas veces se confunde el estilo con la moda, cuando son conceptos totalmente diferentes. La moda cambia cada temporada, mientras que el estilo permanece en el tiempo, y es tu sello personal.</p>
+            <p class="pDisenoNew fontBaskevill">Éste se relaciona con la profundidad de tu ser y para desarrollarlo debes conocer realmente quién eres.</p>
+            <p class="pDisenoNew fontBaskevill">Es necesario que aprendas a crear tu Estilo Personal para que reflejes mayor seguridad y confianza. Te guiaré en cada aspecto que necesites para diseñar tu imagen a tu medida.</p>
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
                     <!-- SECTION 1 -->
@@ -66,7 +75,7 @@
                     <div class="col-lg-12 text-center">
                         <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno3.jpg">
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 mt-3">
                         <p class="text-justify fontBaskevill">Con la forma de nuestro cuerpo nacemos y aunque bajemos o subamos de peso siempre se mantendrá la misma forma, saber cuál es nuestra tipología corporal nos ayudará a entender con mayor facilidad la importancia de saber y corregir ópticamente nuestra imagen a través de la indumentaria con esta asesoría vamos a conocer tu tipología corporal y así determinar qué prendas de vestir son las más adecuadas para ti.</p>
                         <p id="priceD3" data-val="48.50" data-title="Tipologia corporal">$ 48.50</p>
                         <button id="addDiseno3" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
@@ -153,27 +162,27 @@
                 jQuery("#addDiseno1").click(function(e){
                     amountValue1 = jQuery("#priceD1").data().val
                     title1 = jQuery("#priceD1").data().title
-                    shoppingList.append("<li>"+title1+" <sup data-remove='1' id='removeID1'><i class='far fa-trash-alt'></i></sup> </li>")
+                    shoppingList.append("<li>"+title1+"</li>")
                 })
                 jQuery("#addDiseno2").click(function(e){
                     amountValue2 = jQuery("#priceD2").data().val
                     title2 = jQuery("#priceD2").data().title
-                    shoppingList.append("<li>"+title2+" <sup data-remove='2' id='removeID2'><i class='far fa-trash-alt'></i></sup> </li>")
+                    shoppingList.append("<li>"+title2+"</li>")
                 })
                 jQuery("#addDiseno3").click(function(e){
                     amountValue3 = jQuery("#priceD3").data().val
                     title3 = jQuery("#priceD3").data().title
-                    shoppingList.append("<li>"+title3+" <sup data-remove='3' id='removeID3'><i class='far fa-trash-alt'></i></sup> </li>")
+                    shoppingList.append("<li>"+title3+"</li>")
                 })
                 jQuery("#addDiseno4").click(function(e){
                     amountValue4 = jQuery("#priceD4").data().val
                     title4 = jQuery("#priceD4").data().title
-                    shoppingList.append("<li>"+title4+" <sup data-remove='4' id='removeID4'><i class='far fa-trash-alt'></i></sup> </li>")
+                    shoppingList.append("<li>"+title4+"</li>")
                 })
                 jQuery("#addDiseno5").click(function(e){
                     amountValue5 = jQuery("#priceD5").data().val
                     title5 = jQuery("#priceD5").data().title
-                    shoppingList.append("<li>"+title5+" <sup data-remove='5' id='removeID5'><i class='far fa-trash-alt'></i></sup> </li>")
+                    shoppingList.append("<li>"+title5+"</li>")
                 })
                 paypal.Buttons({
                     style:{
@@ -209,7 +218,7 @@
                             typeAnimated: true
                         });
                     }
-                  }).render('#paypal-button-container');
+                }).render('#paypal-button-container');
             })
         </script>
     </body>

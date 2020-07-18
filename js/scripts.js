@@ -64,4 +64,14 @@
         autoplay: true,
         autoplaySpeed: 2500,
     })
+    $('#aboutmeCarousel').slick({
+        dots: false,
+        infinite: true,
+        speed: 1500,
+        fade: true,
+        cssEase: 'linear',
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+    })
 })(jQuery); // End of use strict

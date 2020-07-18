@@ -18,15 +18,15 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
+        <div class="col-12 w-100 d-flex justify-content-between fixed-top navtop" id="socialNetwok">
+            <span>hola@ellestylecoach.com</span>
+            <span class="d-flex justify-content-around align-items-center">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-whatsapp"></i>
+            </span>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0" id="mainNav">
-            <!-- <div class="col-12 w-100 d-flex justify-content-between position-absolute fixed-top navtop">
-                <span>hola@ellestylecoach.com</span>
-                <span class="d-flex justify-content-around align-items-center">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-whatsapp"></i>
-                </span>
-            </div> -->
             <div class="container">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -46,22 +46,22 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead position-relative">
-            <img src="assets/img/logo.svg" alt="logo" class="w-25 position-absolute b-0 l-0">
-            <span class="marcellus position-absolute b-0 r-0 slogan">
-                <span>Guapa</span> 
-                <span>todos</span> 
-                <span>los dias</span>
+            <img src="assets/img/logo.svg" alt="logo" class="position-absolute b-0 l-0 logoPrincipal">
+            <span class="marcellus position-absolute slogan">
+                <span>SE UNA MEJOR</span> 
+                <span>VERSION DE TI</span> 
+                <span>MISMA CADA DIA</span>
             </span>
         </header>
         <!-- Ebook -->
         <section class="page-section p-0" id="ebook">
             <div class="container-fluid mx-0 px-0">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <img src="assets/img/imageEbook.png" alt="imageEbook" class="img-fluid imageEbook">
+                    <div class="col-sm-3">
+                        <img src="assets/img/imageEbook.png" alt="imageEbook" class="img-fluid w-100 imageEbook">
                     </div>
-                    <div class="col-sm-4 ebookText">
-                        <span id="title1">Descarga mi ebook</span> <span id="title2">"Guapa todos los dias"</span>
+                    <div class="col-sm-5 ebookText my-auto">
+                        <span id="title1">Descarga mi ebook</span> <span id="title2">"Cómo verte Guapa todos los días"</span>
                     </div>
                     <div class="col-sm-4" id="ebookDiv">
                         <form id="ebookForm" novalidate="novalidate" class="my-5 w-90">
@@ -83,23 +83,23 @@
         <section class="page-section p-0 my-5" id="sobremi">
             <div class="container-fluid mx-0 px-0">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Sobre Mi</h2>
+                    <p class="section-heading text-uppercase">Estilo personal con Elle</p>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6"><img src="assets/img/aboutMe.jpg" alt="imageAboutMe" class="img-fluid"></div>
-                    <div class="col-lg-6 aboutMe">
+                    <div class="col-lg-6 text-center" id="aboutmeCarousel">
+                        <img src="assets/img/diseno1.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/diseno2.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                    </div>
+                    <div class="col-lg-6 aboutMe my-auto">
                         <p>
-                            Soy <strong>Elle</strong>, <strong>coach de estilo</strong> y me dedico a ayudar a las mujeres a desarrollar su <strong>estilo personal</strong> para lograr independencia personal y profesional por medio de la auto confianza y el bienestar.
-                        </p>
-                        <p id="phrase">
-                        	FRASE
+                            <strong>¡Hola! Soy Elle, Empresaria y Consultora de Imagen y Estilo.</strong> Con una amplia experiencia en el Mundo de la Belleza. Mi objetivo es ayudarte a proyectar tu confianza y seguridad con un estilo personal que te identifique, que seas capaz de mirarte en el espejo y en él se refleje una mujer fuerte, segura de si.
                         </p>
                         <p id="phraseP">
                             <strong>
                                 "DESCUBRE QUIEN ERES PARA CREAR EL ÉXITO A TU MEDIDA"
-                                <p id="notColor">
-                                    ---- SI NO ESTAS OBSESIONADA CON TU VIDA ENTONCES CAMBIALA ----
-                                </p>
+                                <!-- <p id="notColor" class="text-center">
+                                    SÉ UNA MEJOR VERSIÓN DE TI MISMA CADA DÍA.
+                                </p> -->
                             </strong>
                         </p>
                     </div>
@@ -109,10 +109,10 @@
         <section class="page-section p-5 my-5" id="miporque">
         	<div class="container-fluid mx-0 px-0">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase textWhite">Mi Porque</h2>
+                    <p class="section-heading text-uppercase">Mi Porque</p>
                 </div>
             </div>
-            <div class="row miporqueText">
+            <div class="row">
             	<p>
 				    Desde que tengo uso de razón me he sentido conectada con la belleza sin estridencias y en esa búsqueda me prepare en sus diferentes áreas, incluyendo el mejoramiento físico y la belleza interna, por lo que he decidido usar mi preparación para ayudar a otras mujeres a encaminarse en la búsqueda de su independencia a través de la motivación, la auto confianza y el bienestar, guiándolas en la estructura de una imagen personal que la respalde en la consecusión de sus metas.
 				</p>
@@ -122,7 +122,7 @@
         <section class="page-section p-0 my-5" id="asesorias">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Asesorias</h2>
+                    <p class="section-heading text-uppercase">Asesorias</p>
                 </div>
                 <div class="row text-center">
                     <!-- <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
@@ -140,9 +140,8 @@
                         <h4 class="my-3">Diseña tu imagen a tu medida</h4>
                         <p class="text-muted">
                             <span>
-                                <p>Quieres asesorarte en ciertos puntos que te ayudarán a potenciar tu imagen personal? </p>
-                                <p>Te sientes segura contigo misma, pero hay ciertas cosas que desconoces acerca de la imagen y te gustaría apréndelas para dominar tu esencia personal?  O por el contrario te falta un poco de seguridad y no logras tus objetivos por falta de confianza y compromiso? </p>
-                                <p>Te guiare en cada aspecto que necesites para lograr una imagen a tu medida acá te explico lo que lograrás con cada uno de nuestros asesoramientos por detallado.</p>
+                                <p>Considero que el estilo no es una moda es un modo de vida que te identifica con tu esencia personal y te hace más segura en todos los sentidos.</p> <p>Es necesario potenciar tu imagen personal para puedas dominar tu esencia, de esta manera aumentará tu seguridad, compromiso y confianza, permitiéndote alcanzar todos los objetivos que te propongas.</p> <p>Con mi asesoría podemos lograrlo.</p>
+                                <strong>TE GUIARÉ EN CADA ASPECTO QUE NECESITES PARA DISEÑAR TU IMAGEN A TU MEDIDA. </strong>
                             </span>
                         </p>
                         <a class="btn btn-primary btn-block" href="diseno.php">Ver Más</a>
@@ -154,7 +153,7 @@
         <section class="page-section p-0 my-5" id="productos">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Productos</h2>
+                    <p class="section-heading text-uppercase">Productos</p>
                 </div>
                 <!-- <div class="row text-center">
                     <div class="col-md-4">
@@ -179,7 +178,7 @@
         <section class="page-section py-5 m-0" id="testimonios">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase textWhite">Testimonios</h2>
+                    <p class="section-heading text-uppercase">Testimonios</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-12" id="testimonialsCarousel">
@@ -303,7 +302,7 @@
         <section class="page-section py-3 m-0" id="contacto">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contacto</h2>
+                    <p class="section-heading text-uppercase">Contacto</p>
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">

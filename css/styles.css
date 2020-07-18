@@ -605,18 +605,28 @@ pre code {
 
 
 .navtop {
-  color: white;
+  z-index: 1100 !important;
+  background-color: white;
+  color:#e7455f
 }
 
 .navtop > span > svg {
   margin: 0 5px;
 }
 
+.logoPrincipal {
+  width: 30%
+}
+
 .slogan {
-  font-size: 70px;
-  width: 250px;
+  font-size: 59px;
+  width: 500px;
   margin: 0;
   line-height: 1;
+  text-shadow: 3px 3px 3px #e8465f96;
+  color: #e8465f;
+  bottom: 35px;
+  right: 15px
 }
 
 .slogan>span {
@@ -637,11 +647,7 @@ pre code {
 }
 
 .ebookText>span:nth-child(2) {
-  font-size: 5rem;
-}
-
-.ebookText>span:nth-child(3) {
-  font-size: 7.5rem
+  font-size: 5.87rem;
 }
 
 #ebook, #miporque, #testimonios {
@@ -650,8 +656,8 @@ pre code {
 }
 
 #disenoNew {
-  background: url(../assets/img/bk.jpg) center center;
-  background-size: 100% 100%;
+  /*background: url(../assets/img/bk.jpg) center center;
+  background-size: 100% 100%;*/
 }
 
 .fontBaskevill {
@@ -664,6 +670,13 @@ pre code {
 
 .imgDiseno{
   box-shadow: 3px 3px 5px black;
+}
+
+p.titleDisenoNew {
+  font-size: 50px;
+  color: #e7455f;
+  font-weight: 700;
+  line-height: 48px
 }
 
 #disenoNew > .titleDisenoNew {
@@ -700,7 +713,7 @@ pre code {
   bottom: 70px;
   right: 15px;
   background-color: #fdcaaa;
-  width: 350px;
+  width: 170px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #00000096;
 }
@@ -739,11 +752,15 @@ div#ebookDiv form#ebookForm .form-group input.form-control {
   text-shadow: 3px 3px 5px #333333;
 }
 
+.imageAboutMe {
+  width: 65% !important
+}
+
 .col-lg-6.aboutMe > p {
   text-align: justify;
   margin-right: 50px;
   font-family: 'Cabin';
-  font-size: 1.15rem
+  font-size: 1.25rem
 }
 
 .testimonialsImg {
@@ -756,11 +773,11 @@ div#ebookDiv form#ebookForm .form-group input.form-control {
 }
 
 .slick-slide>div>div>h2 {
-  color: white
+  color: black
 }
 
 .slick-slide>div>div>p {
-  color: white
+  color: black
 }
 
 .slick-slide div {
@@ -10284,6 +10301,15 @@ p {
   font-family: Marcellus;
   color: #e7455f;
 }
+.page-section p.section-heading {
+  font-size: 2.75rem;
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+  font-family: Marcellus;
+  color: #e7455f;
+  line-height: 48px;
+  font-weight: 700;
+}
 .page-section h3.section-subheading {
   font-size: 1rem;
   font-weight: 400;
@@ -10340,6 +10366,7 @@ img::-moz-selection {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #212529;
+  top: 24px !important;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
