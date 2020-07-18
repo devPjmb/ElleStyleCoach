@@ -87,12 +87,14 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 text-center" id="aboutmeCarousel">
-                        <img src="assets/img/diseno1.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
-                        <img src="assets/img/diseno2.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/1.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <!-- <img src="assets/img/carrusel-elle/2.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/3.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/4.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe"> -->
                     </div>
                     <div class="col-lg-6 aboutMe my-auto">
                         <p>
-                            <strong>¡Hola! Soy Elle, Empresaria y Consultora de Imagen y Estilo.</strong> Con una amplia experiencia en el Mundo de la Belleza. Mi objetivo es ayudarte a proyectar tu confianza y seguridad con un estilo personal que te identifique, que seas capaz de mirarte en el espejo y en él se refleje una mujer fuerte, segura de si.
+                            <strong>¡Hola! Soy Elle, Empresaria, Consultora de Imagen y Estilo.</strong> Con una amplia experiencia en el Mundo de la Belleza. Mi objetivo es ayudarte a proyectar tu confianza y seguridad con un estilo personal que te identifique, que seas capaz de mirarte en el espejo y en él se refleje una mujer fuerte, segura de si.
                         </p>
                         <p id="phraseP">
                             <strong>
@@ -109,12 +111,12 @@
         <section class="page-section p-5 my-5" id="miporque">
         	<div class="container-fluid mx-0 px-0">
                 <div class="text-center">
-                    <p class="section-heading text-uppercase">Mi Porque</p>
+                    <p class="section-heading text-uppercase">Mi Finalidad</p>
                 </div>
             </div>
             <div class="row">
             	<p>
-				    Desde que tengo uso de razón me he sentido conectada con la belleza sin estridencias y en esa búsqueda me prepare en sus diferentes áreas, incluyendo el mejoramiento físico y la belleza interna, por lo que he decidido usar mi preparación para ayudar a otras mujeres a encaminarse en la búsqueda de su independencia a través de la motivación, la auto confianza y el bienestar, guiándolas en la estructura de una imagen personal que la respalde en la consecusión de sus metas.
+				   Siempre he sentido conexión con la belleza sin estridencias y en esa búsqueda, tomé la decisión de certificarme como consultora de imagen y estilo. Me  prepare en diversas áreas, como el mejoramiento físico y la belleza interna. <strong>Ahora ayudo a mujeres a desarrollar su estilo personal para lograr independencia personal y profesional por medio de la autoconfianza y el bienestar, guiándolas en la construcción de una imagen personal que les permita alcanzar sus metas.</strong>
 				</p>
             </div>
         </section>
@@ -133,18 +135,21 @@
                         <p class="text-muted"><span>Es un reto de transformación de imagen en un mes para mujeres que quieren sentirse más seguras, empoderarse a través de la imagen, para lograr sus metas personales.</span></p>
                         <a class="btn btn-primary btn-block" data-toggle="modal" href="#ellestyle">Ver Más</a>
                     </div> -->
-                    <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
                         <span class="asesorias">
                             <img src="assets/img/ds.svg" alt="imagenatumedida">
                         </span>
                         <h4 class="my-3">Diseña tu imagen a tu medida</h4>
                         <p class="text-muted">
                             <span>
-                                <p>Considero que el estilo no es una moda es un modo de vida que te identifica con tu esencia personal y te hace más segura en todos los sentidos.</p> <p>Es necesario potenciar tu imagen personal para puedas dominar tu esencia, de esta manera aumentará tu seguridad, compromiso y confianza, permitiéndote alcanzar todos los objetivos que te propongas.</p> <p>Con mi asesoría podemos lograrlo.</p>
+                                <p>Considero que el estilo no es una moda es un modo de vida que te identifica con tu esencia personal y te hace más segura en todos los sentidos.</p> <p>Es necesario potenciar tu imagen personal para que puedas dominar tu esencia, de esta manera aumentará tu seguridad, compromiso y confianza, permitiéndote alcanzar todos los objetivos que te propongas.</p> <p>Con mi asesoría podemos lograrlo.</p>
                                 <strong>TE GUIARÉ EN CADA ASPECTO QUE NECESITES PARA DISEÑAR TU IMAGEN A TU MEDIDA. </strong>
                             </span>
                         </p>
                         <a class="btn btn-primary btn-block" href="diseno.php">Ver Más</a>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                        <img src="assets/img/asesorias.jpg" class="img-fluid">
                     </div>
                	</div>
             </div>
@@ -338,7 +343,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Development by © Nxt Lvl 2020</div>
+                    <div class="col-lg-4 text-lg-left">Development by © <strong><a href="mailto:pablo.marcano.16@gmail.com">Nxt Lvl</a></strong> 2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                     </div>
