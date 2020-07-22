@@ -43,7 +43,7 @@
             </div>
         </nav>
         <section class="page-section py-5 px-2 my-5" id="disenoNew">
-            <p class="titleDisenoNew fontBaskevill p-5">DISEÑA TU IMAGEN A TU MEDIDA</p>
+            <p class="titleDisenoNew fontBaskevill p-5 phraseBk">DISEÑA TU IMAGEN A TU MEDIDA</p>
             <p class="pDisenoNew fontBaskevill">Muchas veces se confunde el estilo con la moda, cuando son conceptos totalmente diferentes. La moda cambia cada temporada, mientras que el estilo permanece en el tiempo, y es tu sello personal.</p>
             <p class="pDisenoNew fontBaskevill">Éste se relaciona con la profundidad de tu ser y para desarrollarlo debes conocer realmente quién eres.</p>
             <p class="pDisenoNew fontBaskevill">Es necesario que aprendas a crear tu Estilo Personal para que reflejes mayor seguridad y confianza. Te guiaré en cada aspecto que necesites para diseñar tu imagen a tu medida.</p>
