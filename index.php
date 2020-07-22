@@ -64,7 +64,7 @@
                         <span id="title1">Descarga mi ebook</span> <span id="title2">"Cómo verte Guapa todos los días"</span>
                     </div>
                     <div class="col-sm-4" id="ebookDiv">
-                        <form id="ebookForm" novalidate="novalidate" class="my-5 w-90">
+                        <form id="ebookForm" novalidate="novalidate" class="my-0 w-90">
                             <div class="form-group">
                                 <input class="form-control" id="nameEbook" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingrese su nombre." >
                             </div>
@@ -80,7 +80,7 @@
             </div>
         </section>
         <!-- Sobre Mi -->
-        <section class="page-section p-0 my-5" id="sobremi">
+        <section class="page-section p-0 my-0" id="sobremi">
             <div class="container-fluid mx-0 px-0">
                 <div class="text-center">
                     <p class="section-heading text-uppercase">Estilo personal con Elle</p>
@@ -96,19 +96,18 @@
                         <p>
                             <strong>¡Hola! Soy Elle, Empresaria, Consultora de Imagen y Estilo.</strong> Con una amplia experiencia en el Mundo de la Belleza. Mi objetivo es ayudarte a proyectar tu confianza y seguridad con un estilo personal que te identifique, que seas capaz de mirarte en el espejo y en él se refleje una mujer fuerte, segura de si.
                         </p>
+                    </div>
+                    <div class="col-lg-12 p-5 phraseBk">
                         <p id="phraseP">
                             <strong>
                                 "DESCUBRE QUIEN ERES PARA CREAR EL ÉXITO A TU MEDIDA"
-                                <!-- <p id="notColor" class="text-center">
-                                    SÉ UNA MEJOR VERSIÓN DE TI MISMA CADA DÍA.
-                                </p> -->
                             </strong>
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="page-section p-5 my-5" id="miporque">
+        <section class="page-section p-5 my-0" id="miporque">
         	<div class="container-fluid mx-0 px-0">
                 <div class="text-center">
                     <p class="section-heading text-uppercase">Mi Finalidad</p>
@@ -116,12 +115,12 @@
             </div>
             <div class="row">
             	<p>
-				   Siempre he sentido conexión con la belleza sin estridencias y en esa búsqueda, tomé la decisión de certificarme como consultora de imagen y estilo. Me  prepare en diversas áreas, como el mejoramiento físico y la belleza interna. <strong>Ahora ayudo a mujeres a desarrollar su estilo personal para lograr independencia personal y profesional por medio de la autoconfianza y el bienestar, guiándolas en la construcción de una imagen personal que les permita alcanzar sus metas.</strong>
+				   Siempre he sentido conexión con la belleza sin estridencias y en esa búsqueda, tomé la decisión de certificarme como consultora de imagen y estilo. Me  prepare en diversas áreas, como el mejoramiento físico y la belleza interna. Ahora ayudo a mujeres a desarrollar su estilo personal para lograr independencia personal y profesional por medio de la autoconfianza y el bienestar, guiándolas en la construcción de una imagen personal que les permita alcanzar sus metas.
 				</p>
             </div>
         </section>
         <!-- Asesorias-->
-        <section class="page-section p-0 my-5" id="asesorias">
+        <section class="page-section p-0 my-0" id="asesorias">
             <div class="container">
                 <div class="text-center">
                     <p class="section-heading text-uppercase">Asesorias</p>
@@ -139,11 +138,11 @@
                         <span class="asesorias">
                             <img src="assets/img/ds.svg" alt="imagenatumedida">
                         </span>
-                        <h4 class="my-3">Diseña tu imagen a tu medida</h4>
+                        <h3 class="my-3" style="color: #e7455f;">Diseña tu imagen a tu medida</h3>
                         <p class="text-muted">
                             <span>
-                                <p>Considero que el estilo no es una moda es un modo de vida que te identifica con tu esencia personal y te hace más segura en todos los sentidos.</p> <p>Es necesario potenciar tu imagen personal para que puedas dominar tu esencia, de esta manera aumentará tu seguridad, compromiso y confianza, permitiéndote alcanzar todos los objetivos que te propongas.</p> <p>Con mi asesoría podemos lograrlo.</p>
-                                <strong>TE GUIARÉ EN CADA ASPECTO QUE NECESITES PARA DISEÑAR TU IMAGEN A TU MEDIDA. </strong>
+                                <p>Considero que el estilo no es una moda es un modo de vida que te identifica con tu esencia personal y te hace más segura en todos los sentidos.</p> <p>Es necesario potenciar tu imagen personal para que puedas dominar tu esencia, de esta manera aumentará tu seguridad, compromiso y confianza, permitiéndote alcanzar todos los objetivos que te propongas.</p> <strong>Con mi asesoría podemos lograrlo.</strong>
+                                <strong class="pharseAse">TE GUIARÉ EN CADA ASPECTO QUE NECESITES PARA DISEÑAR TU IMAGEN A TU MEDIDA. </strong>
                             </span>
                         </p>
                         <a class="btn btn-primary btn-block" href="diseno.php">Ver Más</a>
@@ -155,7 +154,7 @@
             </div>
         </section>
         <!-- Productos-->
-        <section class="page-section p-0 my-5" id="productos">
+        <section class="page-section p-0 my-0" id="productos">
             <div class="container">
                 <div class="text-center">
                     <p class="section-heading text-uppercase">Productos</p>

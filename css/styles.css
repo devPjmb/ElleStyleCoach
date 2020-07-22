@@ -582,6 +582,13 @@ pre code {
  * Nuevos estilos
  */
 
+.phraseBk {
+  background-image: url(../assets/img/map-image.png);
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
 #phrase {
   text-align: center;
   color: #e7455f;
@@ -590,6 +597,8 @@ pre code {
 
 #phraseP {
   text-align: center;
+  font-family: 'Cabin';
+  font-size: 2.75rem
 }
 
 #notColor strong {
@@ -10153,6 +10162,13 @@ a.text-dark:hover, a.text-dark:focus {
   color: #212529 !important;
 }
 
+.pharseAse {
+  font-size: 1.4rem;
+  border-top: solid #cfcfcf 1px;
+  border-bottom: solid #cfcfcf 1px;
+  padding: 1rem 0;
+}
+
 .text-muted {
   color: #6c757d !important;
 }
@@ -10308,7 +10324,7 @@ p {
 .page-section p.section-heading {
   font-size: 2.75rem;
   margin-top: 0;
-  margin-bottom: 1.1rem;
+  margin: 1.1rem 0;
   font-family: Marcellus;
   color: #e7455f;
   line-height: 48px;
