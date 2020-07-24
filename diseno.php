@@ -26,7 +26,7 @@
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0" id="mainNav">
             <div class="container">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase w-100 d-flex justify-content-between align-items-center">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Inicio</a></li>

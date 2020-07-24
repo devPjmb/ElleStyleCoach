@@ -595,7 +595,7 @@ pre code {
   font-size: 1.5rem
 } 
 
-#phraseP {
+.phraseP {
   text-align: center;
   font-family: 'Cabin';
   font-size: 2.75rem
@@ -745,7 +745,8 @@ sup {
 }
 
 #miporque>.row>p {
-  font-size: 1.25rem
+  font-size: 1.25rem;
+  text-align: justify;
 }
 
 #ebookDiv {

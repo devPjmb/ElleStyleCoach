@@ -28,7 +28,7 @@
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0" id="mainNav">
             <div class="container">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase w-100 d-flex justify-content-between align-items-center">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Inicio</a></li>
@@ -57,13 +57,13 @@
         <section class="page-section p-0" id="ebook">
             <div class="container-fluid mx-0 px-0">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 imageEbook">
                         <img src="assets/img/imageEbook.png" alt="imageEbook" class="img-fluid w-100 imageEbook">
                     </div>
-                    <div class="col-sm-5 ebookText my-auto">
+                    <div class="col-lg-5 ebookText my-auto">
                         <span id="title1">Descarga mi ebook</span> <span id="title2">"Cómo verte Guapa todos los días"</span>
                     </div>
-                    <div class="col-sm-4" id="ebookDiv">
+                    <div class="col-lg-4" id="ebookDiv">
                         <form id="ebookForm" novalidate="novalidate" class="my-0 w-90">
                             <div class="form-group">
                                 <input class="form-control" id="nameEbook" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingrese su nombre." >
@@ -98,7 +98,7 @@
                         </p>
                     </div>
                     <div class="col-lg-12 p-5 phraseBk">
-                        <p id="phraseP">
+                        <p class="phraseP">
                             <strong>
                                 "DESCUBRE QUIEN ERES PARA CREAR EL ÉXITO A TU MEDIDA"
                             </strong>
@@ -121,7 +121,7 @@
         </section>
         <!-- Asesorias-->
         <section class="page-section p-0 my-0" id="asesorias">
-            <div class="container">
+            <div class="container-fluid mx-0 px-0">
                 <div class="text-center">
                     <p class="section-heading text-uppercase">Asesorias</p>
                 </div>
@@ -134,7 +134,7 @@
                         <p class="text-muted"><span>Es un reto de transformación de imagen en un mes para mujeres que quieren sentirse más seguras, empoderarse a través de la imagen, para lograr sus metas personales.</span></p>
                         <a class="btn btn-primary btn-block" data-toggle="modal" href="#ellestyle">Ver Más</a>
                     </div> -->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column px-5 pb-5">
                         <span class="asesorias">
                             <img src="assets/img/ds.svg" alt="imagenatumedida">
                         </span>
@@ -142,13 +142,15 @@
                         <p class="text-muted">
                             <span>
                                 <p>Considero que el estilo no es una moda es un modo de vida que te identifica con tu esencia personal y te hace más segura en todos los sentidos.</p> <p>Es necesario potenciar tu imagen personal para que puedas dominar tu esencia, de esta manera aumentará tu seguridad, compromiso y confianza, permitiéndote alcanzar todos los objetivos que te propongas.</p> <strong>Con mi asesoría podemos lograrlo.</strong>
-                                <strong class="pharseAse">TE GUIARÉ EN CADA ASPECTO QUE NECESITES PARA DISEÑAR TU IMAGEN A TU MEDIDA. </strong>
                             </span>
                         </p>
                         <a class="btn btn-primary btn-block" href="diseno.php">Ver Más</a>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-colum px-5n">
                         <img src="assets/img/asesorias.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-12 p-5 phraseBk">
+                        <strong><p class="phraseP" style="font-size: 2.0268748rem;">TE GUIARÉ EN CADA ASPECTO QUE NECESITES PARA DISEÑAR TU IMAGEN A TU MEDIDA.</p></strong> 
                     </div>
                	</div>
             </div>
