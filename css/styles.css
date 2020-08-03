@@ -582,6 +582,11 @@ pre code {
  * Nuevos estilos
  */
 
+
+.asesoriasText > p {
+  font-size: 20px !important; 
+}
+
 .phraseBk {
   background-image: url(../assets/img/map-image.png);
   background-repeat: repeat;
@@ -699,7 +704,8 @@ p.titleDisenoNew {
 
 #disenoNew > .pDisenoNew {
   text-align: center;
-  font-size: 19px
+  font-size: 20px;
+  margin: unset !important;
 }
 
 .iconCart {

@@ -44,15 +44,24 @@
         </nav>
         <section class="page-section py-5 px-2 my-5" id="disenoNew">
             <p class="titleDisenoNew fontBaskevill p-5 phraseBk">DISEÑA TU IMAGEN A TU MEDIDA</p>
-            <p class="pDisenoNew fontBaskevill">Muchas veces se confunde el estilo con la moda, cuando son conceptos totalmente diferentes. La moda cambia cada temporada, mientras que el estilo permanece en el tiempo, y es tu sello personal.</p>
-            <p class="pDisenoNew fontBaskevill">Éste se relaciona con la profundidad de tu ser y para desarrollarlo debes conocer realmente quién eres.</p>
-            <p class="pDisenoNew fontBaskevill">Es necesario que aprendas a crear tu Estilo Personal para que reflejes mayor seguridad y confianza. Te guiaré en cada aspecto que necesites para diseñar tu imagen a tu medida.</p>
+            <p class="pDisenoNew fontBaskevill">Muchas veces se confunde el estilo con la moda, cuando son conceptos totalmente diferentes. La moda cambia cada temporada, mientras que el estilo permanece en el tiempo, y es tu sello personal. Éste se relaciona con la profundidad de tu ser y para desarrollarlo debes conocer realmente quién eres.
+            Es necesario que aprendas a crear tu Estilo Personal para que reflejes mayor seguridad y confianza. Te guiaré en cada aspecto que necesites para diseñar tu imagen a tu medida.</p>
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
                     <!-- SECTION 1 -->
-                    <h1 class="titleDisenoNew col-lg-12 text-center my-5">1. Autoconocimiento e imagen interna</h1>
+                    <h1 class="titleDisenoNew col-lg-7 text-left my-5">1. Autoconocimiento e imagen interna</h1>
+                    <span class="offset-lg-5"></span>
                     <div class="col-lg-6">
-                        <p class="text-justify fontBaskevill">Con este asesoramiento te ayudaré a comprender quien realmente eres, si entiendes quién eres entrarás en un proceso espontáneo de transformación, tendrás claridad en cómo deseas ser percibida y así alcanzar tus objetivos y metas con más seguridad, pero al contrario si sólo tratas de cambiar tu imagen externa y convertirte en aquello que crees que deberías ser no se producirá ningún cambio tan sólo una continuación de lo viejo con una apariencia diferente, Es por eso que esta asesoría es la base para construir una imagen firme de ti y que perdure en el tiempo.</p>
+                        <p class="text-justify fontBaskevill">Con este asesoramiento te ayudaré a comprender quién eres
+                            realmente, una vez que entiendas ésto entrarás en un
+                            proceso espontáneo de transformación, tendrás claridad en
+                            cómo deseas ser percibida y así alcanzarás tus metas con
+                            mayor seguridad, pero al contrario, si sólo tratas de cambiar
+                            tu imagen externa y convertirte en aquello que crees que
+                            deberías ser no se producirá ningún cambio trascendental,
+                            sólo una continuación de lo viejo con una apariencia
+                            diferente. Es por eso que esta asesoría es la base para
+                            construir una imagen firme de ti y que perdure en el tiempo.</p>
                         <p id="priceD1" data-val="48.50" data-title="Autoconocimiento e imagen interna">$ 48.50</p>
                         <button id="addDiseno1" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
@@ -60,13 +69,19 @@
                         <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.jpg">
                     </div>
                     <!-- SECTION 2 -->
-                    <h1 class="titleDisenoNew col-lg-12 text-center my-5">2. Análisis de color</h1>
+                    <span class="offset-lg-6"></span>
+                    <h1 class="titleDisenoNew col-lg-6 text-center my-5">2. Análisis de color</h1>
                     <div class="col-lg-6 text-center">
                         <img class="img-fluid imgDiseno w-75" src="assets/img/diseno2.jpg">
                     </div>
                     <div class="col-lg-6">
-                        <p class="text-justify fontBaskevill">Que los colores ejerza influencia sobre nuestras emociones y estados de ánimo es un hecho conocido desde tiempos inmemoriales, la verdad es que el color en todos los aspectos de nuestras vidas es sumamente central; El color tiene importancia en varios sentidos, expresar estados de ánimo, nos permite darnos a conocer y señalar nuestra identidad, sirve para distinguir nuestro producto de otro, sirve para comunicar a través del color de nuestra vestimenta etc.</p>
-                        <p class="text-justify fontBaskevill">Esta asesoría es fundamental para establecer cuáles son aquellos tonos en prendas de vestir accesorios maquillaje y Cabello que van a favorecer y armonizar con tus características físicas naturales adicionalmente te brindaré sugerencias relacionadas a correcciones ópticas en mensajes según la ocasión, aprenderás a identificar los colores que te favorecen y los que te desfavorecen aprenderás a realizar combinaciones efectivas de colores tonos de tintura del cabello y maquillaje según tu características naturales.</p>
+                        <p class="text-justify fontBaskevill">Aprenderás a identificar los colores que van con tu estilo
+                            y a realizar combinaciones efectivas de las prendas de
+                            vestir, los accesorios, la tintura del cabello y el
+                            maquillaje que favorecerán tu apariencia según tus
+                            características físicas naturales. Adicionalmente te
+                            brindaré sugerencias relacionadas a cómo corregir
+                            ópticamente la imagen de acuerdo a la ocasión.</p>
                         <p id="priceD2" data-val="48.50" data-title="Analisis de color">$ 48.50</p>
                         <button id="addDiseno2" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
@@ -76,21 +91,24 @@
                         <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno3.jpg">
                     </div>
                     <div class="col-lg-12 mt-3">
-                        <p class="text-justify fontBaskevill">Con la forma de nuestro cuerpo nacemos y aunque bajemos o subamos de peso siempre se mantendrá la misma forma, saber cuál es nuestra tipología corporal nos ayudará a entender con mayor facilidad la importancia de saber y corregir ópticamente nuestra imagen a través de la indumentaria con esta asesoría vamos a conocer tu tipología corporal y así determinar qué prendas de vestir son las más adecuadas para ti.</p>
+                        <p class="text-justify fontBaskevill">Con la forma de nuestro cuerpo nacemos y aunque bajemos o subamos de peso siempre se mantendrá la misma forma, saber cuál es nuestra tipología corporal nos ayudará a entender
+                        con mayor facilidad la importancia de saber y corregir ópticamente nuestra imagen a través de la indumentaria con esta asesoría vamos a conocer tu tipología corporal y así determinar qué prendas de vestir son las más adecuadas para ti.
                         <p id="priceD3" data-val="48.50" data-title="Tipologia corporal">$ 48.50</p>
                         <button id="addDiseno3" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <!-- SECTION 4 -->
-                    <h1 class="titleDisenoNew col-lg-12 text-center my-5">4. Manejo visual y estratégico del vestuario</h1>
+                    <h1 class="titleDisenoNew col-lg-8 text-left my-5">4. Manejo visual y estratégico del vestuario</h1>
+                    <span class="offset-lg-4"></span>
                     <div class="col-lg-6">
-                        <p class="text-justify fontBaskevill">Quieres lucir más alta o más delgada?<br>
-                            Tienes pocas curvas y quisieras lucir más curvilínea? <br> O tal vez eres muy curvilínea y quisieras que se aprecien menos?<br>
-
-                            La clave para lograr que cualquier persona luzca increíble es crear un equilibrio a través del vestuario este conocimiento te ayudará a tener las herramientas necesarias y esenciales a la hora de crear balance y proporción con tu tipo de cuerpo.
-
-                            Además profundizaremos en temas vinculados al manejo estratégico Del vestuario los mensajes, las características de las prendas las ocasiones en que debe de usarse cierto tipo de vestimenta según el código de vestuario y las estrategias de vestir conforme a tu edad.
-
-                            Con estas herramientas que te daré Amarás tu guardarropa y tu imagen! Ya verás! me lo agradecerás!!!</p>
+                        <p class="text-justify fontBaskevill">La clave para lograr que cualquier persona luzca increíble es crear un balance entre el
+                        vestuario y la proporción de tu tipo de cuerpo, este
+                        conocimiento te ayudará a tener las herramientas a la
+                        hora de seleccionar la vestimenta que usarás. Además
+                        profundizaremos en temas vinculados al manejo
+                        estratégico de los mensajes del vestuario, las
+                        características de las prendas, el código de vestuario y
+                        las estrategias de vestir conforme a tu edad. Con estas
+                        herramientas… <strong>¡Amarás tu guardarropa y tu imagen!</strong></p>
                             <p id="priceD4" data-val="48.50" data-title="Manejo visual y estrategico del vestuario">$ 48.50</p>
                             <button id="addDiseno4" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
@@ -98,21 +116,21 @@
                         <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno5.jpg">
                     </div>
                     <!-- SECTION 5 -->
-                    <h1 class="titleDisenoNew col-lg-12 text-center my-5">5. Estilo personal</h1>
+                    <span class="offset-lg-6"></span>
+                    <h1 class="titleDisenoNew col-lg-6 text-center my-5">5. Estilo personal</h1>
                     <div class="col-lg-6 text-center">
                         <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno4.jpg">
                     </div>
                     <div class="col-lg-6">
-                        <p class="text-justify fontBaskevill">¿Que es el estilo personal?
-                        El estilo es la identidad, lo que nos hace únicos especiales y diferentes la palabra estilo tiene su origen en el término latino (Estillus) y aunque muchos lo asocian con las preferencias en cuanto al vestuario de una persona, este término trasciende el vestuario Las preferencias en cuanto al vestuario y se puede ver reflejado En aspectos como las preferencias de la decoración de su entorno lo que le gusta comer, leer, los lugares que frecuencia, las actividades que realiza en su día a día, entre otras. En conclusión está muy ligado con el estilo de vida valores y visión de vida de la persona para poder definir un estilo personal es muy importante conectarnos con nuestro ser interno con nuestra naturaleza y realizar un proceso de autoconocimiento.
-                        <br>
-                        Una frase que define muy bien la diferencia entre moda y estilo es:
-                        <br>
-                        <strong>“La moda cambia el estilo prevalece”</strong> 
-                        una frase de  <strong>Coco Chanel</strong>.<br>
-                        A través de esta asesoría del estilo personal mi reto es guiarte a no ser víctima de la moda y que logres crear un estilo propio, que juntas descubramos tú esencia personal , eso que te hace única e irrepetible.
-
-                        Mi objetivo principal es brindarte herramientas para que puedas filtrar toda esta información e identificar muy bien lo que te favorece dentro del universo de opciones y de información que genera el mercado.</p>
+                        <p class="text-justify fontBaskevill">El estilo es la identidad personal que nos hace únicos,
+especiales y diferentes. A través de esta asesoría del
+estilo personal, te guiaré a que no seas víctima de la
+moda y que logres crear un estilo propio. Te brindaré
+herramientas para que descubras tu esencia personal y
+puedas identificar lo que te favorece según tu estilo.
+Para poder definir un Estilo Personal es muy importante
+conectarnos con nuestro ser interno y realizar un
+proceso de autoconocimiento.</p>
                         <p id="priceD5" data-val="48.50" data-title="Estilo personal">$ 48.50</p>
                         <button id="addDiseno5" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>

@@ -134,10 +134,7 @@
                         <p class="text-muted"><span>Es un reto de transformación de imagen en un mes para mujeres que quieren sentirse más seguras, empoderarse a través de la imagen, para lograr sus metas personales.</span></p>
                         <a class="btn btn-primary btn-block" data-toggle="modal" href="#ellestyle">Ver Más</a>
                     </div> -->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column px-5 pb-5">
-                        <span class="asesorias">
-                            <img src="assets/img/ds.svg" alt="imagenatumedida">
-                        </span>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column px-5 pb-5 asesoriasText">
                         <h3 class="my-3" style="color: #e7455f;">Diseña tu imagen a tu medida</h3>
                         <p class="text-muted">
                             <span>
