@@ -94,7 +94,22 @@
                     </div>
                     <div class="col-lg-6 aboutMe my-auto">
                         <p>
-                            <strong>¡Hola! Soy Elle, Empresaria, Consultora de Imagen y Estilo.</strong> Con una amplia experiencia en el Mundo de la Belleza. Mi objetivo es ayudarte a proyectar tu confianza y seguridad con un estilo personal que te identifique, que seas capaz de mirarte en el espejo y en él se refleje una mujer fuerte, segura de si.
+                            <strong>¡Hola! Soy Elle, empresaria y consultora de imagen y estilo</strong>. Con una
+amplia experiencia en el mundo de la belleza. Me caracterizo por ser una mujer
+carismática, apasionada y entusiasta. De mentalidad abierta, arriesgada,
+práctica y directa. Siempre luzco una imagen que sea impactante, sugestiva y
+sensual.
+Mi objetivo es ayudarte a proyectar tu confianza y seguridad con un estilo
+personal que te identifique, destacando tu sensualidad. Qué al mirarte en el
+espejo, veas reflejada una mujer fuerte, segura de sí, con una imagen que sea
+el centro de atención de todas las miradas.
+Conmigo aprenderás a enamorarte de ti misma y de tu cuerpo. Dejarás a un
+lado los mitos del éxito, belleza y poder. No importa el estilo personal, lo
+introvertida o extrovertida que seas, lo importante es que como mujer sepas
+tener gracia, elegancia y mostrar tu lado sensual, sin perder la naturalidad y sin
+caer en lo vulgar.
+<strong>Es hora de sacar tu feminidad, que te sientas y te veas sensual, que todos
+puedan ver que estás lista para salir a brillar.</strong>
                         </p>
                     </div>
                     <div class="col-lg-12 p-5 phraseBk">
@@ -115,7 +130,13 @@
             </div>
             <div class="row">
             	<p>
-				   Siempre he sentido conexión con la belleza sin estridencias y en esa búsqueda, tomé la decisión de certificarme como consultora de imagen y estilo. Me  prepare en diversas áreas, como el mejoramiento físico y la belleza interna. Ahora ayudo a mujeres a desarrollar su estilo personal para lograr independencia personal y profesional por medio de la autoconfianza y el bienestar, guiándolas en la construcción de una imagen personal que les permita alcanzar sus metas.
+				   Siempre he sentido conexión con la belleza sin estridencias y en esa
+búsqueda, tomé la decisión de certificarme como consultora de imagen y estilo.
+Me preparé en diversas áreas, como el mejoramiento físico y la belleza interna.
+Trabajando juntas lograremos que tu imagen externa haga coherencia con tu
+ser interno y así puedas brillar. Permitiéndote alcanzar una independencia
+personal sólida, de ésta forma conseguirás que los demás escuchen tus ideas
+y lograrás influir a través de tu estilo de vida, pensamiento e imagen.
 				</p>
             </div>
         </section>
@@ -138,8 +159,25 @@
                         <h3 class="my-3" style="color: #e7455f;">Diseña tu imagen a tu medida</h3>
                         <p class="text-muted">
                             <span>
-                                <p>Considero que el estilo no es una moda es un modo de vida que te identifica con tu esencia personal y te hace más segura en todos los sentidos.</p> <p>Es necesario potenciar tu imagen personal para que puedas dominar tu esencia, de esta manera aumentará tu seguridad, compromiso y confianza, permitiéndote alcanzar todos los objetivos que te propongas.</p> <strong>Con mi asesoría podemos lograrlo.</strong>
+                               Considero que el estilo no es una moda es un modo de vida que te identifica
+con tu esencia personal y te hace más segura en todos los sentidos. Es
+necesario potenciar tu imagen personal para puedas dominar tu esencia, de
+esta manera aumentará tu seguridad, compromiso y confianza, permitiéndote
+alcanzar todos los objetivos que te propongas.
+Con mi <strong>Asesoría de Imagen y Life Coaching</strong> te ayudaré a proyectar tu
+magnetismo femenino, a que tomes el control de tu poder. Este poder no se
+limita a lo físico, sino a tu forma de conducirte, a las habilidades sociales, el
+liderazgo y la influencia.
+Durante mi trabajo como Life Coaching y como instructora de Pole Dance, he
+visto a un gran número de mujeres que sienten vergüenza de mostrar su
+feminidad y su lado sensual. Es momento de romper esas barreras, para que
+entres en un estado de total libertad y confianza. Tu encanto femenino es parte
+de tu energía, te permite tener activos todos los sentidos, que seas natural y
+práctica, te hace cautivadora y atractiva. La sociedad podrá ver tu gran valor y
+te encontrará irresistible. Porque no se trata sólo de verse bien, se trata de
+verse y sentirse bien para siempre.
                             </span>
+                            <strong>Es hora de mostrarte al mundo y gritar toda tu gloria femenina.</strong>
                         </p>
                         <a class="btn btn-primary btn-block" href="diseno.php">Ver Más</a>
                     </div>
