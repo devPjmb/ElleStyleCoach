@@ -22,8 +22,8 @@
             <span>hola@ellestylecoach.com</span>
             <span class="d-flex justify-content-around align-items-center">
                 <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-whatsapp"></i>
+                <a href="https://www.instagram.com/Ellestylecoach/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/584123524282" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </span>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top p-0" id="mainNav">
@@ -381,7 +381,9 @@ verse y sentirse bien para siempre.
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-left">Development by © <strong><a href="mailto:pablo.marcano.16@gmail.com">Nxt Lvl</a></strong> 2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/Ellestylecoach/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://wa.me/584123524282" target="_blank"><i class="fab fa-whatsapp"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-right"><a class="mr-3" href="#!">Politica de Privacidad</a></div>
                 </div>

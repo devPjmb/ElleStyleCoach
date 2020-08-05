@@ -624,7 +624,7 @@ pre code {
   color:#e7455f
 }
 
-.navtop > span > svg {
+.navtop > span > svg, a {
   margin: 0 5px;
 }
 
