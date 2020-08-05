@@ -88,9 +88,8 @@
                 <div class="row">
                     <div class="col-lg-6 text-center" id="aboutmeCarousel">
                         <img src="assets/img/carrusel-elle/1.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
-                        <!-- <img src="assets/img/carrusel-elle/2.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
-                        <img src="assets/img/carrusel-elle/3.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
-                        <img src="assets/img/carrusel-elle/4.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe"> -->
+                        <img src="assets/img/carrusel-elle/5.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/6.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
                     </div>
                     <div class="col-lg-6 aboutMe my-auto">
                         <p>
@@ -115,7 +114,7 @@ puedan ver que estás lista para salir a brillar.</strong>
                     <div class="col-lg-12 p-5 phraseBk">
                         <p class="phraseP">
                             <strong>
-                                "DESCUBRE QUIEN ERES PARA CREAR EL ÉXITO A TU MEDIDA"
+                                "ES HORA DE SACAR TU FEMINIDAD Y QUE TODOS PUEDAN VER QUÉ ESTÁS LISTA PARA BRILLAR"
                             </strong>
                         </p>
                     </div>
@@ -155,7 +154,7 @@ y lograrás influir a través de tu estilo de vida, pensamiento e imagen.
                         <p class="text-muted"><span>Es un reto de transformación de imagen en un mes para mujeres que quieren sentirse más seguras, empoderarse a través de la imagen, para lograr sus metas personales.</span></p>
                         <a class="btn btn-primary btn-block" data-toggle="modal" href="#ellestyle">Ver Más</a>
                     </div> -->
-                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column px-5 pb-5 asesoriasText">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column pl-5 pb-5 asesoriasText">
                         <h3 class="my-3" style="color: #e7455f;">Diseña tu imagen a tu medida</h3>
                         <p class="text-muted">
                             <span>
@@ -181,8 +180,9 @@ verse y sentirse bien para siempre.
                         </p>
                         <a class="btn btn-primary btn-block" href="diseno.php">Ver Más</a>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center align-items-center flex-colum px-5n">
-                        <img src="assets/img/asesorias.jpg" class="img-fluid">
+                    <div class="col-md-6 pb-5">
+                        <img src="assets/img/asesoria-arriba.jpeg" class="img-fluid w-50 pb-3">
+                        <img src="assets/img/asesoria-abajo.jpeg" class="img-fluid w-50">
                     </div>
                     <div class="col-lg-12 p-5 phraseBk">
                         <strong><p class="phraseP" style="font-size: 2.0268748rem;">TE GUIARÉ EN CADA ASPECTO QUE NECESITES PARA DISEÑAR TU IMAGEN A TU MEDIDA.</p></strong> 
