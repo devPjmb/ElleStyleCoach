@@ -55,7 +55,7 @@
     $(window).scroll(navbarCollapse);
 
     $('#testimonialsCarousel').slick({
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 1500,
         fade: true,
@@ -63,6 +63,7 @@
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2500,
+        arrows: false
     })
     $('#aboutmeCarousel').slick({
         dots: false,
@@ -73,5 +74,6 @@
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2500,
+        arrows: false
     })
 })(jQuery); // End of use strict

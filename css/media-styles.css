@@ -23,3 +23,44 @@
     	padding: 0 2rem!important
 	}
 }
+
+@media only screen and (max-width: 425px) {
+	.slogan {
+		font-size: 20px;
+	    width: 200px;
+	    bottom: 10px;
+	    right: 0;
+	}
+	.imageEbook > img {
+	    width: 55% !important;
+	}
+	.ebookText>span:nth-child(1) {
+    	font-size: 3rem !important;
+	}
+	.ebookText>span:nth-child(2) {
+	    font-size: 4.87rem;
+	}
+	#hiddenPhone {
+		display: none
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.slogan {
+		font-size: 17px;
+	    width: 150px;
+	    bottom: 10px;
+	    right: 0;
+	}
+	.ebookText>span:nth-child(1) {
+    	font-size: 2rem !important;
+	}
+	.ebookText>span:nth-child(2) {
+	    font-size: 3.87rem;
+	}
+	#ebookForm {
+	    padding: 0 1rem !important;
+	    margin-bottom: 3rem !important;
+	    width: 100% !important;
+	}
+}
