@@ -61,10 +61,12 @@
                         <img src="assets/img/imageEbook.png" alt="imageEbook" class="img-fluid w-100 imageEbook">
                     </div>
                     <div class="col-lg-5 ebookText my-auto">
-                        <span id="title1">Descarga mi ebook</span> <span id="title2">"Cómo verte Guapa todos los días"</span>
+                        <span id="title1">Descarga mi ebook (Proximamente)</span> 
+                        <span id="title2">"Cómo verte Guapa todos los días"</span>
                     </div>
                     <div class="col-lg-4" id="ebookDiv">
                         <form id="ebookForm" novalidate="novalidate" class="my-0 w-90">
+                            <span class="msgForm">Registrate para saber cuando este disponible el eBook</span>
                             <div class="form-group">
                                 <input class="form-control" id="nameEbook" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingrese su nombre." >
                             </div>
@@ -72,7 +74,7 @@
                                 <input class="form-control" id="emailEbook" type="text" placeholder="Correo Electronico *" required="required" data-validation-required-message="Ingrese su correo.">
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-primary btn-block text-uppercase" id="insertClientButton" type="submit">ENVIAR</button>
+                                <button class="btn btn-primary btn-block text-uppercase" id="insertClientButton" type="submit">REGISTRATE</button>
                             </div>
                         </form>
                     </div>

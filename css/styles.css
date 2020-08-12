@@ -845,6 +845,12 @@ div#ebookDiv form#ebookForm .form-group input.form-control {
 #title3 {
   font-family: 'Kitahara'
 }
+
+span.msgForm {
+    color: white;
+    font-size: 29px;
+    text-shadow: 3px 3px 5px #333333;
+}
 /**
  * End Nuevos estilos
  */
