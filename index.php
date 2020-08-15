@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-lg-4" id="ebookDiv">
                         <form id="ebookForm" novalidate="novalidate" class="my-0 w-90">
-                            <span class="msgForm">Registrate para saber cuando este disponible el eBook</span>
+                            <p class="msgForm">Registrate para saber cuando este disponible el eBook</p>
                             <div class="form-group">
                                 <input class="form-control" id="nameEbook" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingrese su nombre." >
                             </div>
@@ -95,7 +95,7 @@
                     </div>
                     <div class="col-lg-6 aboutMe my-auto">
                         <p>
-                            <strong>¡Hola! Soy Elle, empresaria y consultora de imagen y estilo</strong>. Con una
+                            <strong>¡Hola! Soy Elle, Empresaria y Consultora de Imagen y Estilo.</strong> Con una
 amplia experiencia en el mundo de la belleza. Me caracterizo por ser una mujer
 carismática, apasionada y entusiasta. De mentalidad abierta, arriesgada,
 práctica y directa. Siempre luzco una imagen que sea impactante, sugestiva y
@@ -109,7 +109,7 @@ lado los mitos del éxito, belleza y poder. No importa el estilo personal, lo
 introvertida o extrovertida que seas, lo importante es que como mujer sepas
 tener gracia, elegancia y mostrar tu lado sensual, sin perder la naturalidad y sin
 caer en lo vulgar.
-<strong>Es hora de sacar tu feminidad, que te sientas y te veas sensual, que todos
+<strong style="display: none !important">Es hora de sacar tu feminidad, que te sientas y te veas sensual, que todos
 puedan ver que estás lista para salir a brillar.</strong>
                         </p>
                     </div>
@@ -162,7 +162,7 @@ y lograrás influir a través de tu estilo de vida, pensamiento e imagen.
                             <span>
                                Considero que el estilo no es una moda es un modo de vida que te identifica
 con tu esencia personal y te hace más segura en todos los sentidos. Es
-necesario potenciar tu imagen personal para puedas dominar tu esencia, de
+necesario potenciar tu imagen personal para que puedas dominar tu esencia, de
 esta manera aumentará tu seguridad, compromiso y confianza, permitiéndote
 alcanzar todos los objetivos que te propongas.
 Con mi <strong>Asesoría de Imagen y Life Coaching</strong> te ayudaré a proyectar tu

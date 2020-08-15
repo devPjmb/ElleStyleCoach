@@ -13,6 +13,9 @@
 	.ebookText>span:nth-child(1) {
 		font-size: 5rem !important
 	}
+	.phraseP {
+		font-size: 35px !important;
+	}
 	#ebookForm {
 		padding: 0 3rem !important;
 		margin-bottom: 3rem !important;
@@ -43,6 +46,9 @@
 	#hiddenPhone {
 		display: none
 	}
+	#miporque>.row>p{
+		text-align: center !important;
+	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -62,5 +68,8 @@
 	    padding: 0 1rem !important;
 	    margin-bottom: 3rem !important;
 	    width: 100% !important;
+	}
+	.msgForm {
+		text-align: center !important;
 	}
 }
