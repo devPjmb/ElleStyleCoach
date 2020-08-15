@@ -139,9 +139,9 @@ strong {
   color: #e7455f;
 }
 
-s {
+/*s {
   color: #e7455f
-}
+}*/
 
 small {
   font-size: 80%;
@@ -743,6 +743,11 @@ p.titleDisenoNew {
 
 sup {
   cursor: pointer;
+}
+
+strong.price {
+  color: red !important;
+  font-size: 1.2rem !important
 }
 
 .textWhite {
