@@ -180,7 +180,7 @@ verse y sentirse bien para siempre.
                             </span>
                             <strong>Es hora de mostrarte al mundo y gritar toda tu gloria femenina.</strong>
                         </p>
-                        <a class="btn btn-primary btn-block" href="diseno.php">Ver Más</a>
+                        <a class="btn btn-primary btn-block" href="asesorias.php">Ver Más</a>
                     </div>
                     <div class="col-md-6 pb-5" id="hiddenPhone">
                         <img src="assets/img/asesoria-arriba.jpeg" class="img-fluid w-50 pb-3">
