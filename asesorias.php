@@ -109,7 +109,7 @@
                         <p id="priceD3" data-val="60" data-title="Tipologia corporal">
                             <strong class="price">OFERTA: 60$</strong> <br>
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">97$</s> <br>
-                            <small style="font-weight: 900">Ahorra: 37$ (58,2%)</small>
+                            <small style="font-weight: 900">Ahorra: 37$ (38,15%)</small>
                         </p>
                         <button id="addDiseno3" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
@@ -133,7 +133,7 @@
                         <p id="priceD4" data-val="60" data-title="Manejo visual y estrategico del vestuario">
                             <strong class="price">OFERTA: 60$</strong> <br>
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">97$</s> <br>
-                            <small style="font-weight: 900">Ahorra: 37$ (58,2%)</small>                        </p>
+                            <small style="font-weight: 900">Ahorra: 37$ (38,15%)</small>                        </p>
                             <button id="addDiseno4" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <div class="col-lg-6 text-center imgPrin">
@@ -158,7 +158,7 @@ proceso de autoconocimiento. <strong>En esta asesoría trabajaremos juntas duran
                         <p id="priceD5" data-val="60" data-title="Estilo personal">
                             <strong class="price">OFERTA: 60$</strong> <br>
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">97$</s> <br>
-                            <small style="font-weight: 900">Ahorra: 37$ (58,2%)</small>
+                            <small style="font-weight: 900">Ahorra: 37$ (38,15%)</small>
                         </p>
                         <button id="addDiseno5" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>

@@ -41,6 +41,9 @@
 	.asesoriasText {
 		padding: 0 1rem !important;
 	}
+	.asesoriasText > p {
+	    text-align: center !important;
+	}
 }
 
 @media only screen and (max-width: 425px) {
