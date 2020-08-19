@@ -11,6 +11,7 @@
         <script src="js/all.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/media-styles.css" rel="stylesheet" />
         <link href="css/jquery-confirm.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
         <link rel="stylesheet" type="text/css" href="css/slick.css">
@@ -61,7 +62,11 @@
                             deberías ser no se producirá ningún cambio trascendental,
                             sólo una continuación de lo viejo con una apariencia
                             diferente. Es por eso que esta asesoría es la base para
-                            construir una imagen firme de ti y que perdure en el tiempo. <strong>En esta sección trabajaremos juntas durante 15 días.</strong></p>
+                            construir una imagen firme de ti y que perdure en el tiempo. <strong>En esta asesoría trabajaremos juntas durante 15 días.</strong>
+                            <div class="col-lg-6 text-center imgMobile">
+                                <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.jpg">
+                            </div>
+                        </p>
                         <p id="priceD1" data-val="120" data-title="Autoconocimiento e imagen interna">
                             <strong class="price">OFERTA: 120$</strong> <br>
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">195$</s> <br>
@@ -69,7 +74,7 @@
                         </p>
                         <button id="addDiseno1" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
-                    <div class="col-lg-6 text-center">
+                    <div class="col-lg-6 text-center imgPrin">
                         <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.jpg">
                     </div>
                     <!-- SECTION 2 -->
@@ -85,7 +90,7 @@
                             maquillaje que favorecerán tu apariencia según tus
                             características físicas naturales. Adicionalmente te
                             brindaré sugerencias relacionadas a cómo corregir
-                            ópticamente la imagen de acuerdo a la ocasión. <strong>En esta sección trabajaremos juntas durante 15 días.</strong></p>
+                            ópticamente la imagen de acuerdo a la ocasión. <strong>En esta asesoría trabajaremos juntas durante 15 días.</strong></p>
                         <p id="priceD2" data-val="120" data-title="Analisis de color">
                             <strong class="price">OFERTA: 120$</strong> <br>
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">195$</s> <br>
@@ -100,7 +105,7 @@
                     </div>
                     <div class="col-lg-12 mt-3">
                         <p class="text-justify fontBaskevill">Con la forma de nuestro cuerpo nacemos y aunque bajemos o subamos de peso siempre se mantendrá la misma forma, saber cuál es nuestra tipología corporal nos ayudará a entender
-                        con mayor facilidad la importancia de saber y corregir ópticamente nuestra imagen a través de la indumentaria con esta asesoría vamos a conocer tu tipología corporal y así determinar qué prendas de vestir son las más adecuadas para ti. <strong>En esta sección trabajaremos juntas durante 7 días.</strong></p>
+                        con mayor facilidad la importancia de saber y corregir ópticamente nuestra imagen a través de la indumentaria con esta asesoría vamos a conocer tu tipología corporal y así determinar qué prendas de vestir son las más adecuadas para ti. <strong>En esta asesoría trabajaremos juntas durante 7 días.</strong></p>
                         <p id="priceD3" data-val="60" data-title="Tipologia corporal">
                             <strong class="price">OFERTA: 60$</strong> <br>
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">97$</s> <br>
@@ -120,14 +125,18 @@
                         estratégico de los mensajes del vestuario, las
                         características de las prendas, el código de vestuario y
                         las estrategias de vestir conforme a tu edad. Con estas
-                        herramientas… <strong>¡Amarás tu guardarropa y tu imagen!</strong>  <strong>En esta sección trabajaremos juntas durante 7 días.</strong></p>
+                        herramientas… <strong>¡Amarás tu guardarropa y tu imagen!</strong>  <strong>En esta asesoría trabajaremos juntas durante 7 días.</strong>
+                        <div class="col-lg-6 text-center imgMobile">
+                            <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno5.jpg">
+                        </div>
+                    </p>
                         <p id="priceD4" data-val="60" data-title="Manejo visual y estrategico del vestuario">
                             <strong class="price">OFERTA: 60$</strong> <br>
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">97$</s> <br>
                             <small style="font-weight: 900">Ahorra: 37$ (58,2%)</small>                        </p>
                             <button id="addDiseno4" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
-                    <div class="col-lg-6 text-center">
+                    <div class="col-lg-6 text-center imgPrin">
                         <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno5.jpg">
                     </div>
                     <!-- SECTION 5 -->
@@ -145,7 +154,7 @@ herramientas para que descubras tu esencia personal y
 puedas identificar lo que te favorece según tu estilo.
 Para poder definir un Estilo Personal es muy importante
 conectarnos con nuestro ser interno y realizar un
-proceso de autoconocimiento. <strong>En esta sección trabajaremos juntas durante 7 días.</strong></p>
+proceso de autoconocimiento. <strong>En esta asesoría trabajaremos juntas durante 7 días.</strong></p>
                         <p id="priceD5" data-val="60" data-title="Estilo personal">
                             <strong class="price">OFERTA: 60$</strong> <br>
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">97$</s> <br>

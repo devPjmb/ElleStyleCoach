@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1440px) {
+	.imgMobile {
+		display: none;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.slogan {
 		font-size: 35px;
@@ -23,7 +29,17 @@
 	}
 	.col-lg-6.aboutMe > p {
 		margin: 0 auto !important;
-    	padding: 0 2rem!important
+    	padding: 0 2rem!important;
+    	text-align: center !important;
+	}
+	.imgMobile {
+		display: block !important;
+	}
+	.imgPrin {
+		display: none !important
+	}
+	.asesoriasText {
+		padding: 0 1rem !important;
 	}
 }
 
@@ -47,6 +63,13 @@
 		display: none
 	}
 	#miporque>.row>p{
+		text-align: center !important;
+	}
+	.row > .titleDisenoNew {
+		color: #ea465f;
+		font-family: Baskvill;
+		font-size: 2.4rem;
+		margin-bottom: 10px !important;
 		text-align: center !important;
 	}
 }
