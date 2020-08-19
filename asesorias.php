@@ -53,6 +53,9 @@
                     <h1 class="titleDisenoNew col-lg-7 text-left my-5">1. Autoconocimiento e imagen interna</h1>
                     <span class="offset-lg-5"></span>
                     <div class="col-lg-6">
+                        <div class="col-lg-6 text-center imgMobile">
+                            <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.jpg">
+                        </div>
                         <p class="text-justify fontBaskevill">Con este asesoramiento te ayudaré a comprender quién eres
                             realmente, una vez que entiendas ésto entrarás en un
                             proceso espontáneo de transformación, tendrás claridad en
@@ -63,9 +66,6 @@
                             sólo una continuación de lo viejo con una apariencia
                             diferente. Es por eso que esta asesoría es la base para
                             construir una imagen firme de ti y que perdure en el tiempo. <strong>En esta asesoría trabajaremos juntas durante 15 días.</strong>
-                            <div class="col-lg-6 text-center imgMobile">
-                                <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.jpg">
-                            </div>
                         </p>
                         <p id="priceD1" data-val="120" data-title="Autoconocimiento e imagen interna">
                             <strong class="price">OFERTA: 120$</strong> <br>
@@ -117,6 +117,9 @@
                     <h1 class="titleDisenoNew col-lg-8 text-left my-5">4. Manejo visual y estratégico del vestuario</h1>
                     <span class="offset-lg-4"></span>
                     <div class="col-lg-6">
+                        <div class="col-lg-6 text-center imgMobile">
+                            <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno5.jpg">
+                        </div>
                         <p class="text-justify fontBaskevill">La clave para lograr que cualquier persona luzca increíble es crear un balance entre el
                         vestuario y la proporción de tu tipo de cuerpo, este
                         conocimiento te ayudará a tener las herramientas a la
@@ -126,9 +129,6 @@
                         características de las prendas, el código de vestuario y
                         las estrategias de vestir conforme a tu edad. Con estas
                         herramientas… <strong>¡Amarás tu guardarropa y tu imagen!</strong>  <strong>En esta asesoría trabajaremos juntas durante 7 días.</strong>
-                        <div class="col-lg-6 text-center imgMobile">
-                            <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno5.jpg">
-                        </div>
                     </p>
                         <p id="priceD4" data-val="60" data-title="Manejo visual y estrategico del vestuario">
                             <strong class="price">OFERTA: 60$</strong> <br>
