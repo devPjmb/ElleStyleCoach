@@ -90,7 +90,7 @@
                 <div class="row w-100 m-0">
                     <div class="col-lg-6 text-center" id="aboutmeCarousel">
                         <img src="assets/img/carrusel-elle/1.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
-                        <img src="assets/img/carrusel-elle/5.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/2.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
                         <img src="assets/img/carrusel-elle/6.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
                     </div>
                     <div class="col-lg-6 aboutMe my-auto">
