@@ -688,6 +688,7 @@ pre code {
 
 .imgDiseno{
   box-shadow: 3px 3px 5px black;
+  margin-bottom: 15px;
 }
 
 p.titleDisenoNew {
@@ -806,7 +807,7 @@ div#ebookDiv form#ebookForm .form-group input.form-control {
 }
 
 .slick-slide>div>div>p {
-  color: black
+  color: black;
 }
 
 .slick-slide div {

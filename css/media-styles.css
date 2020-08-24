@@ -54,7 +54,8 @@
 	    right: 0;
 	}
 	.imageEbook > img {
-	    width: 55% !important;
+	    width: 75% !important;
+		padding: 1rem;
 	}
 	.ebookText>span:nth-child(1) {
     	font-size: 3rem !important;
@@ -71,9 +72,12 @@
 	.row > .titleDisenoNew {
 		color: #ea465f;
 		font-family: Baskvill;
-		font-size: 2.4rem;
+		font-size: 2rem;
 		margin-bottom: 10px !important;
 		text-align: center !important;
+	}
+	.slick-slide>div>div>p {
+	  height: 450px !important
 	}
 }
 

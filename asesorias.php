@@ -54,7 +54,7 @@
                     <span class="offset-lg-5"></span>
                     <div class="col-lg-6">
                         <div class="col-lg-6 text-center imgMobile">
-                            <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.jpg">
+                            <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.png">
                         </div>
                         <p class="text-justify fontBaskevill">Con este asesoramiento te ayudaré a comprender quién eres
                             realmente, una vez que entiendas ésto entrarás en un
@@ -75,7 +75,7 @@
                         <button id="addDiseno1" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <div class="col-lg-6 text-center imgPrin">
-                        <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.jpg">
+                        <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.png">
                     </div>
                     <!-- SECTION 2 -->
                     <span class="offset-lg-6"></span>
@@ -101,7 +101,7 @@
                     <!-- SECTION 3 -->
                     <h1 class="titleDisenoNew col-lg-12 text-center my-5">3. Tipológia corporal</h1>
                     <div class="col-lg-12 text-center">
-                        <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno3.jpg">
+                        <img class="img-fluid imgDiseno w-100 imgDiseno" src="assets/img/Tipologia.png">
                     </div>
                     <div class="col-lg-12 mt-3">
                         <p class="text-justify fontBaskevill">Con la forma de nuestro cuerpo nacemos y aunque bajemos o subamos de peso siempre se mantendrá la misma forma, saber cuál es nuestra tipología corporal nos ayudará a entender
@@ -143,7 +143,7 @@
                     <span class="offset-lg-6"></span>
                     <h1 class="titleDisenoNew col-lg-6 text-center my-5">5. Estilo personal</h1>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno4.jpg">
+                        <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno4.png">
                     </div>
                     <div class="col-lg-6">
                         <p class="text-justify fontBaskevill">El estilo es la identidad personal que nos hace únicos,

@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-lg-4" id="ebookDiv">
                         <form id="ebookForm" novalidate="novalidate" class="my-0 w-90">
-                            <p class="msgForm">Registrate para saber cuando este disponible el eBook</p>
+                            <!-- <p class="msgForm">Registrate para saber cuando este disponible el eBook</p> -->
                             <div class="form-group">
                                 <input class="form-control" id="nameEbook" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingrese su nombre." >
                             </div>
@@ -89,9 +89,9 @@
                 </div>
                 <div class="row w-100 m-0">
                     <div class="col-lg-6 text-center" id="aboutmeCarousel">
-                        <img src="assets/img/carrusel-elle/1.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
-                        <img src="assets/img/carrusel-elle/2.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
-                        <img src="assets/img/carrusel-elle/6.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/Elle1.png" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/Elle2.png" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/Elle3.png" alt="imageAboutMe" class="img-fluid imageAboutMe">
                     </div>
                     <div class="col-lg-6 aboutMe my-auto">
                         <p>
