@@ -139,6 +139,10 @@ strong {
   color: #e7455f;
 }
 
+/*s {
+  color: #e7455f
+}*/
+
 small {
   font-size: 80%;
 }
@@ -684,6 +688,7 @@ pre code {
 
 .imgDiseno{
   box-shadow: 3px 3px 5px black;
+  margin-bottom: 15px;
 }
 
 p.titleDisenoNew {
@@ -739,6 +744,11 @@ p.titleDisenoNew {
 
 sup {
   cursor: pointer;
+}
+
+strong.price {
+  color: red !important;
+  font-size: 1.35rem !important
 }
 
 .textWhite {
@@ -797,7 +807,7 @@ div#ebookDiv form#ebookForm .form-group input.form-control {
 }
 
 .slick-slide>div>div>p {
-  color: black
+  color: black;
 }
 
 .slick-slide div {

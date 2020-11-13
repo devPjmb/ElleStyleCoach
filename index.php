@@ -56,7 +56,7 @@
         <!-- Ebook -->
         <section class="page-section p-0" id="ebook">
             <div class="container-fluid mx-0 px-0">
-                <div class="row w-100">
+                <div class="row w-100 m-0 m-0">
                     <div class="col-lg-3 imageEbook">
                         <img src="assets/img/imageEbook.png" alt="imageEbook" class="img-fluid w-100 imageEbook">
                     </div>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-lg-4" id="ebookDiv">
                         <form id="ebookForm" novalidate="novalidate" class="my-0 w-90">
-                            <p class="msgForm">Registrate para saber cuando este disponible el eBook</p>
+                            <!-- <p class="msgForm">Registrate para saber cuando este disponible el eBook</p> -->
                             <div class="form-group">
                                 <input class="form-control" id="nameEbook" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingrese su nombre." >
                             </div>
@@ -87,11 +87,11 @@
                 <div class="text-center">
                     <p class="section-heading text-uppercase">Estilo personal con Elle</p>
                 </div>
-                <div class="row w-100">
+                <div class="row w-100 m-0">
                     <div class="col-lg-6 text-center" id="aboutmeCarousel">
-                        <img src="assets/img/carrusel-elle/1.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
-                        <img src="assets/img/carrusel-elle/5.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
-                        <img src="assets/img/carrusel-elle/6.jpg" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/Elle1.png" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/Elle2.png" alt="imageAboutMe" class="img-fluid imageAboutMe">
+                        <img src="assets/img/carrusel-elle/Elle3.png" alt="imageAboutMe" class="img-fluid imageAboutMe">
                     </div>
                     <div class="col-lg-6 aboutMe my-auto">
                         <p>
@@ -129,7 +129,7 @@ puedan ver que estás lista para salir a brillar.</strong>
                     <p class="section-heading text-uppercase">Mi Finalidad</p>
                 </div>
             </div>
-            <div class="row w-100">
+            <div class="row w-100 m-0">
             	<p>
 				   Siempre he sentido conexión con la belleza sin estridencias y en esa
 búsqueda, tomé la decisión de certificarme como consultora de imagen y estilo.
@@ -147,7 +147,7 @@ y lograrás influir a través de tu estilo de vida, pensamiento e imagen.
                 <div class="text-center">
                     <p class="section-heading text-uppercase">Asesorias</p>
                 </div>
-                <div class="row w-100 text-center">
+                <div class="row w-100 m-0 text-center">
                     <!-- <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
                         <span class="asesorias">
                             <img src="assets/img/ll.svg" alt="Ellestylemechellange">
@@ -180,7 +180,7 @@ verse y sentirse bien para siempre.
                             </span>
                             <strong>Es hora de mostrarte al mundo y gritar toda tu gloria femenina.</strong>
                         </p>
-                        <a class="btn btn-primary btn-block" href="diseno.php">Ver Más</a>
+                        <a class="btn btn-primary btn-block" href="asesorias.php">Ver Más</a>
                     </div>
                     <div class="col-md-6 pb-5" id="hiddenPhone">
                         <img src="assets/img/asesoria-arriba.jpeg" class="img-fluid w-50 pb-3">
@@ -198,7 +198,7 @@ verse y sentirse bien para siempre.
                 <div class="text-center">
                     <p class="section-heading text-uppercase">Productos</p>
                 </div>
-                <!-- <div class="row w-100 text-center">
+                <!-- <div class="row w-100 m-0 text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x"><i class="fas fa-circle fa-stack-2x text-primary"></i><i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
                         <h4 class="my-3">E-Commerce</h4>
@@ -223,7 +223,7 @@ verse y sentirse bien para siempre.
                 <div class="text-center">
                     <p class="section-heading text-uppercase">Testimonios</p>
                 </div>
-                <div class="row w-100">
+                <div class="row w-100 m-0">
                     <div class="col-lg-12" id="testimonialsCarousel">
                         <div>
                             <img src="assets/img/testimonios/karlameneses-min.jpeg" class="img-fluid testimonialsImg" alt="testimonios">
@@ -348,7 +348,7 @@ verse y sentirse bien para siempre.
                     <p class="section-heading text-uppercase">Contacto</p>
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                    <div class="row w-100 align-items-stretch mb-5">
+                    <div class="row w-100 m-0 align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <input class="form-control" id="name" name="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Please enter your name." />
@@ -380,7 +380,7 @@ verse y sentirse bien para siempre.
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
-                <div class="row w-100 align-items-center">
+                <div class="row w-100 m-0 align-items-center">
                     <div class="col-lg-4 text-lg-left">Development by © <strong><a href="mailto:pablo.marcano.16@gmail.com">Nxt Lvl</a></strong> 2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
