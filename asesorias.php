@@ -246,7 +246,11 @@ proceso de autoconocimiento. <strong>En esta asesoría trabajaremos juntas duran
                     title5 = jQuery("#priceD5").data().title
                     shoppingList.append("<p><strong>"+title5+"</strong></p>")
                 })
+<<<<<<< HEAD:asesorias.php
                 jQuery("#totalPrice").html(parseFloat(amountValue1)+parseFloat(amountValue2)+parseFloat(amountValue3)+parseFloat(amountValue4)+parseFloat(amountValue5))
+=======
+                jQuery("#totalPrice").html()
+>>>>>>> 0a48001bc8f0f6d4fff393f7fbb385dc43a82695:diseno.php
             })
         </script>
     </body>
