@@ -72,7 +72,7 @@
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">195$</s> <br>
                             <small style="font-weight: 900">Ahorra: 75$ (38,46%)</small>
                         </p>
-                        <button id="addDiseno1" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
+                        <button id="addDiseno1" class="btn btn-primary btnAddToCar"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <div class="col-lg-6 text-center imgPrin">
                         <img class="img-fluid imgDiseno w-50" src="assets/img/diseno1.png">
@@ -96,7 +96,7 @@
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">195$</s> <br>
                             <small style="font-weight: 900">Ahorra: 75$ (38,46%)</small>
                         </p>
-                        <button id="addDiseno2" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
+                        <button id="addDiseno2" class="btn btn-primary btnAddToCar"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <!-- SECTION 3 -->
                     <h1 class="titleDisenoNew col-lg-12 text-center my-5">3. Tipológia corporal</h1>
@@ -111,7 +111,7 @@
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">97$</s> <br>
                             <small style="font-weight: 900">Ahorra: 37$ (38,15%)</small>
                         </p>
-                        <button id="addDiseno3" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
+                        <button id="addDiseno3" class="btn btn-primary btnAddToCar"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <!-- SECTION 4 -->
                     <h1 class="titleDisenoNew col-lg-8 text-left my-5">4. Manejo visual y estratégico del vestuario</h1>
@@ -134,7 +134,7 @@
                             <strong class="price">OFERTA: 60$</strong> <br>
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">97$</s> <br>
                             <small style="font-weight: 900">Ahorra: 37$ (38,15%)</small>                        </p>
-                            <button id="addDiseno4" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
+                            <button id="addDiseno4" class="btn btn-primary btnAddToCar"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
                     <div class="col-lg-6 text-center imgPrin">
                         <img class="img-fluid imgDiseno w-50 imgDiseno" src="assets/img/diseno5.jpg">
@@ -160,20 +160,17 @@ proceso de autoconocimiento. <strong>En esta asesoría trabajaremos juntas duran
                             <span style="font-weight: 900">Precio:</span> <s style="font-weight: 900">97$</s> <br>
                             <small style="font-weight: 900">Ahorra: 37$ (38,15%)</small>
                         </p>
-                        <button id="addDiseno5" class="btn btn-primary"><span class="fa fa-cart-plus"></span> Agregar</button>
+                        <button id="addDiseno5" class="btn btn-primary btnAddToCar"><span class="fa fa-cart-plus"></span> Agregar</button>
                     </div>
-                    <!-- Button Paypal
-                    <div id="paypal-button-container"></div>
-                    -->
-                    <div class="shopList" id="shopList">
-                        <ol id="shopListOL">
-                        </ol>
-                        <div id="paypal-button-container"></div>
-                    </div>
-                    <div class="iconCart" id="iconCart"><span class="fa fa-shopping-cart fa-2x"></span></div>
                 </div>
             </div>
         </section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6" id="shopList"></div>
+                <div class="col-lg-6"><strong>Precio Total: </strong><span id="totalPrice"></span></div>
+            </div>
+        </div>
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
@@ -193,80 +190,40 @@ proceso de autoconocimiento. <strong>En esta asesoría trabajaremos juntas duran
         <script src="js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="js/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
-        <script src="js/slick.js"></script>
         <script src="js/scripts.js"></script>
-        <script src="js/jquery-confirm.js"></script>
-         <!-- PayPal Script -->
-        <script src="https://www.paypal.com/sdk/js?client-id=AYPbKXvipBjwRLWnW15KtTcfWnCwfqjA01nDFHdu1plH9bDqlD4VwtTC7W17UAqI-EOJBB1aIiCtf0ky"></script>
         <script type="text/javascript">
             jQuery(document).ready(function(){
                 let amountValue1  = 0, amountValue2 = 0, amountValue3 = 0, amountValue4 = 0, amountValue5 = 0, amountValue
                 let title1, title2, title3, title4, title5
-                let shoppingList = jQuery("#shopListOL")
-                jQuery("#addDiseno1").click(function(e){
+                let totalAmout
+                let shoppingList = jQuery("#shopList")
+                jQuery("#addDiseno1").one("click",function(e){
                     amountValue1 = jQuery("#priceD1").data().val
                     title1 = jQuery("#priceD1").data().title
-                    shoppingList.append("<li>"+title1+"</li>")
+                    shoppingList.append("<p><strong>"+title1+"</strong></p>")
                 })
-                jQuery("#addDiseno2").click(function(e){
+                jQuery("#addDiseno2").one("click",function(e){
                     amountValue2 = jQuery("#priceD2").data().val
                     title2 = jQuery("#priceD2").data().title
-                    shoppingList.append("<li>"+title2+"</li>")
+                    shoppingList.append("<p><strong>"+title2+"</strong></p>")
                 })
-                jQuery("#addDiseno3").click(function(e){
+                jQuery("#addDiseno3").one("click",function(e){
                     amountValue3 = jQuery("#priceD3").data().val
                     title3 = jQuery("#priceD3").data().title
-                    shoppingList.append("<li>"+title3+"</li>")
+                    shoppingList.append("<p><strong>"+title3+"</strong></p>")
                 })
-                jQuery("#addDiseno4").click(function(e){
+                jQuery("#addDiseno4").one("click",function(e){
                     amountValue4 = jQuery("#priceD4").data().val
                     title4 = jQuery("#priceD4").data().title
-                    shoppingList.append("<li>"+title4+"</li>")
+                    shoppingList.append("<p><strong>"+title4+"</strong></p>")
                 })
-                jQuery("#addDiseno5").click(function(e){
+                jQuery("#addDiseno5").one("click",function(e){
                     amountValue5 = jQuery("#priceD5").data().val
                     title5 = jQuery("#priceD5").data().title
-                    shoppingList.append("<li>"+title5+"</li>")
+                    shoppingList.append("<p><strong>"+title5+"</strong></p>")
                 })
-                paypal.Buttons({
-                    style:{
-                        layout: 'horizontal',
-                        color: 'black',
-                        shape: 'pill',
-                        tagline: true
-                    },
-                    createOrder: function(data, actions) {
-                      return actions.order.create({
-                        purchase_units: [{
-                          amount: {
-                            value: parseFloat(amountValue1) + parseFloat(amountValue2) + parseFloat(amountValue3) + parseFloat(amountValue4) + parseFloat(amountValue5)
-                          }
-                        }]
-                      });
-                    },
-                    onApprove: function(data, actions) {
-                      return actions.order.capture().then(function(details) {
-                        $.alert({
-                            title: 'Exito',
-                            content: details.payer.name.given_name + ' Transaccion completada de manera exitosa.',
-                            type: 'green',
-                            typeAnimated: true
-                        });
-                      });
-                    },
-                    onError: function(err) {
-                        $.alert({
-                            title: 'Error',
-                            content: 'Ocurrio un error, por favor intente de nuevo mas tarde',
-                            type: 'red',
-                            typeAnimated: true
-                        });
-                    }
-                }).render('#paypal-button-container');
+                jQuery("#totalPrice").html()
             })
         </script>
     </body>
